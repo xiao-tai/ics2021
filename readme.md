@@ -2,7 +2,7 @@
 
 在`nemu`下运行`make run`
 
-![](./image/2024-03-13-15-20-23-image.png)
+![](./image/nemu.png)
 
 `am-kernels/tests`下用来测试自己的代码正确性的
 
