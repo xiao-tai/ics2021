@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CHAR_H	game.c	8;"	d	file:
+CHAR_W	game.c	7;"	d	file:
+COL_GREEN	game.c	12;"	d	file:
+COL_PURPLE	game.c	13;"	d	file:
+COL_RED	game.c	11;"	d	file:
+COL_WHITE	game.c	10;"	d	file:
+CPS	game.c	6;"	d	file:
+FPS	game.c	5;"	d	file:
+GREEN	game.c	/^enum { WHITE = 0, RED, GREEN, PURPLE };$/;"	e	enum:__anon1	file:
+NAME	Makefile	/^NAME = typing-game$/;"	m
+NCHAR	game.c	9;"	d	file:
+PURPLE	game.c	/^enum { WHITE = 0, RED, GREEN, PURPLE };$/;"	e	enum:__anon1	file:
+RED	game.c	/^enum { WHITE = 0, RED, GREEN, PURPLE };$/;"	e	enum:__anon1	file:
+SRCS	Makefile	/^SRCS = game.c font.c$/;"	m
+WHITE	game.c	/^enum { WHITE = 0, RED, GREEN, PURPLE };$/;"	e	enum:__anon1	file:
+blank	game.c	/^uint32_t texture[3][26][CHAR_W * CHAR_H], blank[CHAR_W * CHAR_H];$/;"	v
+ch	game.c	/^  char ch;$/;"	m	struct:character	file:
+character	game.c	/^struct character {$/;"	s	file:
+chars	game.c	/^} chars[NCHAR];$/;"	v	typeref:struct:character
+check_hit	game.c	/^void check_hit(char ch) {$/;"	f
+font	font.c	/^char font[] = {$/;"	v
+game_logic_update	game.c	/^void game_logic_update(int frame) {$/;"	f
+hit	game.c	/^int screen_w, screen_h, hit, miss, wrong;$/;"	v
+lut	game.c	/^char lut[256] = {$/;"	v
+main	game.c	/^int main() {$/;"	f
+min	game.c	/^int min(int a, int b) {$/;"	f
+miss	game.c	/^int screen_w, screen_h, hit, miss, wrong;$/;"	v
+new_char	game.c	/^void new_char() {$/;"	f
+randint	game.c	/^int randint(int l, int r) {$/;"	f
+render	game.c	/^void render() {$/;"	f
+screen_h	game.c	/^int screen_w, screen_h, hit, miss, wrong;$/;"	v
+screen_w	game.c	/^int screen_w, screen_h, hit, miss, wrong;$/;"	v
+t	game.c	/^  int x, y, v, t;$/;"	m	struct:character	file:
+texture	game.c	/^uint32_t texture[3][26][CHAR_W * CHAR_H], blank[CHAR_W * CHAR_H];$/;"	v
+v	game.c	/^  int x, y, v, t;$/;"	m	struct:character	file:
+video_init	game.c	/^void video_init() {$/;"	f
+wrong	game.c	/^int screen_w, screen_h, hit, miss, wrong;$/;"	v
+x	game.c	/^  int x, y, v, t;$/;"	m	struct:character	file:
+y	game.c	/^  int x, y, v, t;$/;"	m	struct:character	file:

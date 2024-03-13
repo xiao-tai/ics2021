@@ -1,0 +1,1119 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AMASK	src/native/ioe/gpu.c	19;"	d	file:
+AM_DEVREG	include/amdev.h	6;"	d
+AM_GPU_NULL	include/amdev.h	56;"	d
+AM_GPU_SUBTREE	include/amdev.h	55;"	d
+AM_GPU_TEXTURE	include/amdev.h	54;"	d
+AM_H__	include/am.h	2;"	d
+AM_KEYS	include/amdev.h	/^  AM_KEYS(AM_KEY_NAMES)$/;"	e	enum:__anon16
+AM_KEYS	include/amdev.h	37;"	d
+AM_KEY_NAMES	include/amdev.h	46;"	d
+AM_KEY_NONE	include/amdev.h	/^  AM_KEY_NONE = 0,$/;"	e	enum:__anon16
+ARCH_H__	include/arch/native.h	2;"	d
+ARCH_H__	include/arch/riscv32-nemu.h	2;"	d
+ARCH_H__	include/arch/riscv64-mycpu.h	2;"	d
+ARCH_H__	include/arch/riscv64-nemu.h	2;"	d
+ARCH_H__	include/arch/spike.h	2;"	d
+ARCH_H__	include/arch/x86-nemu.h	2;"	d
+ARCH_H__	include/arch/x86-qemu.h	2;"	d
+ARCH_H__	include/arch/x86_64-qemu.h	2;"	d
+ARGSIZE	src/x86/qemu/boot/main.c	6;"	d	file:
+ASSERT	src/x86/qemu/ioe.c	361;"	d	file:
+AUDIO_ADDR	src/platform/nemu/include/nemu.h	31;"	d
+AUDIO_CHANNELS_ADDR	src/platform/nemu/ioe/audio.c	5;"	d	file:
+AUDIO_COUNT_ADDR	src/platform/nemu/ioe/audio.c	9;"	d	file:
+AUDIO_FREQ_ADDR	src/platform/nemu/ioe/audio.c	4;"	d	file:
+AUDIO_INIT_ADDR	src/platform/nemu/ioe/audio.c	8;"	d	file:
+AUDIO_SAMPLES_ADDR	src/platform/nemu/ioe/audio.c	6;"	d	file:
+AUDIO_SBUF_ADDR	src/platform/nemu/include/nemu.h	34;"	d
+AUDIO_SBUF_SIZE_ADDR	src/platform/nemu/ioe/audio.c	7;"	d	file:
+AddrSpace	include/am.h	/^} AddrSpace;$/;"	t	typeref:struct:__anon15
+Area	include/am.h	/^} Area;$/;"	t	typeref:struct:__anon12
+B	src/x86/qemu/ioe.c	/^static inline uint8_t B(uint32_t p) { return p; }$/;"	f	file:
+BCAST	src/x86/qemu/ioe.c	364;"	d	file:
+BLKSZ	src/native/ioe/disk.c	6;"	d	file:
+BLKSZ	src/x86/qemu/ioe.c	264;"	d	file:
+BMASK	src/native/ioe/gpu.c	18;"	d	file:
+BOOTREC_ADDR	src/x86/x86.h	95;"	d
+BUSY	src/x86/qemu/ioe.c	365;"	d	file:
+BootRecord	src/x86/x86.h	/^} BootRecord;$/;"	t	typeref:struct:__anon11
+CLINT_MMIO	src/riscv/spike/timer.c	5;"	d	file:
+COM1	src/x86/qemu/ioe.c	7;"	d	file:
+COM1	src/x86/qemu/trm.c	35;"	d	file:
+CONTEXT_SIZE	src/mips/nemu/trap.S	/^#define CONTEXT_SIZE ((31 + 6) * 4)$/;"	d
+CONTEXT_SIZE	src/riscv/mycpu/trap.S	/^#define CONTEXT_SIZE ((32 + 3) * 8)$/;"	d
+CONTEXT_SIZE	src/riscv/nemu/trap.S	/^#define CONTEXT_SIZE  ((32 + 3 + 1) * XLEN)$/;"	d
+CP0_CAUSE	src/mips/nemu/trap.S	/^#define CP0_CAUSE  13$/;"	d
+CP0_EPC	src/mips/nemu/trap.S	/^#define CP0_EPC    14$/;"	d
+CP0_STATUS	src/mips/nemu/trap.S	/^#define CP0_STATUS 12$/;"	d
+CPU	src/x86/qemu/x86-qemu.h	74;"	d
+CR0_PE	src/x86/qemu/boot/start.S	/^#define CR0_PE          0x00000001$/;"	d
+CR0_PE	src/x86/x86.h	19;"	d
+CR0_PG	src/x86/x86.h	20;"	d
+CR4_PAE	src/x86/x86.h	21;"	d
+Context	include/am.h	/^typedef struct Context Context;$/;"	t	typeref:struct:Context
+Context	include/arch/mips32-nemu.h	/^struct Context {$/;"	s
+Context	include/arch/native.h	/^struct Context {$/;"	s
+Context	include/arch/riscv32-nemu.h	/^struct Context {$/;"	s
+Context	include/arch/riscv64-mycpu.h	/^struct Context {$/;"	s
+Context	include/arch/riscv64-nemu.h	/^struct Context {$/;"	s
+Context	include/arch/spike.h	/^struct Context {$/;"	s
+Context	include/arch/x86-nemu.h	/^struct Context {$/;"	s
+Context	include/arch/x86-qemu.h	/^struct Context {$/;"	s
+Context	include/arch/x86_64-qemu.h	/^struct Context {$/;"	s
+DEASSERT	src/x86/qemu/ioe.c	362;"	d	file:
+DELIVS	src/x86/qemu/ioe.c	360;"	d	file:
+DEVICE_BASE	src/platform/nemu/include/nemu.h	20;"	d
+DEVICE_BASE	src/platform/nemu/include/nemu.h	22;"	d
+DISKSZ	src/x86/qemu/ioe.c	265;"	d	file:
+DISK_ADDR	src/platform/nemu/include/nemu.h	32;"	d
+DPL_KERN	src/x86/x86.h	2;"	d
+DPL_USER	src/x86/x86.h	3;"	d
+ENABLE	src/x86/qemu/ioe.c	355;"	d	file:
+EOI	src/x86/qemu/ioe.c	353;"	d	file:
+ERR	src/x86/qemu/trap32.S	/^#define ERR$/;"	d
+ERR	src/x86/qemu/trap64.S	/^#define ERR$/;"	d
+ERROR	src/x86/qemu/ioe.c	374;"	d	file:
+ESR	src/x86/qemu/ioe.c	356;"	d	file:
+EVENT_ERROR	include/am.h	/^    EVENT_YIELD, EVENT_SYSCALL, EVENT_PAGEFAULT, EVENT_ERROR,$/;"	e	enum:__anon13::__anon14
+EVENT_IRQ_IODEV	include/am.h	/^    EVENT_IRQ_TIMER, EVENT_IRQ_IODEV,$/;"	e	enum:__anon13::__anon14
+EVENT_IRQ_TIMER	include/am.h	/^    EVENT_IRQ_TIMER, EVENT_IRQ_IODEV,$/;"	e	enum:__anon13::__anon14
+EVENT_NULL	include/am.h	/^    EVENT_NULL = 0,$/;"	e	enum:__anon13::__anon14
+EVENT_PAGEFAULT	include/am.h	/^    EVENT_YIELD, EVENT_SYSCALL, EVENT_PAGEFAULT, EVENT_ERROR,$/;"	e	enum:__anon13::__anon14
+EVENT_SYSCALL	include/am.h	/^    EVENT_YIELD, EVENT_SYSCALL, EVENT_PAGEFAULT, EVENT_ERROR,$/;"	e	enum:__anon13::__anon14
+EVENT_YIELD	include/am.h	/^    EVENT_YIELD, EVENT_SYSCALL, EVENT_PAGEFAULT, EVENT_ERROR,$/;"	e	enum:__anon13::__anon14
+EX_DE	src/x86/x86.h	40;"	d
+EX_DF	src/x86/x86.h	43;"	d
+EX_ENTRY	src/mips/nemu/cte.c	26;"	d	file:
+EX_GP	src/x86/x86.h	47;"	d
+EX_MF	src/x86/x86.h	49;"	d
+EX_NM	src/x86/x86.h	42;"	d
+EX_NP	src/x86/x86.h	45;"	d
+EX_PF	src/x86/x86.h	48;"	d
+EX_SS	src/x86/x86.h	46;"	d
+EX_SYSCALL	src/x86/x86.h	50;"	d
+EX_TS	src/x86/x86.h	44;"	d
+EX_UD	src/x86/x86.h	41;"	d
+EX_YIELD	src/x86/x86.h	51;"	d
+Event	include/am.h	/^} Event;$/;"	t	typeref:struct:__anon13
+FB_ADDR	src/platform/nemu/include/nemu.h	33;"	d
+FIXED	src/x86/qemu/ioe.c	366;"	d	file:
+FL_IF	src/x86/x86.h	16;"	d
+FPS	src/native/ioe/gpu.c	14;"	d	file:
+FROMHOST	src/riscv/spike/htif.c	14;"	d	file:
+FROMHOST_CMD	src/riscv/spike/htif.h	17;"	d
+FROMHOST_DATA	src/riscv/spike/htif.h	18;"	d
+FROMHOST_DEV	src/riscv/spike/htif.h	16;"	d
+FROMHOST_OFFSET	src/riscv/spike/htif.c	17;"	d	file:
+FUNC_ALIAS	src/riscv/mycpu/libgcc/div.S	/^#define FUNC_ALIAS(X,Y)		\\$/;"	d
+FUNC_ALIAS	src/riscv/mycpu/libgcc/div.S	/^FUNC_ALIAS (__modsi3, __moddi3)$/;"	l
+FUNC_BEGIN	src/riscv/mycpu/libgcc/div.S	/^#define FUNC_BEGIN(X)		\\$/;"	d
+FUNC_BEGIN	src/riscv/mycpu/libgcc/div.S	/^FUNC_BEGIN (__divdi3)$/;"	l
+FUNC_BEGIN	src/riscv/mycpu/libgcc/div.S	/^FUNC_BEGIN (__moddi3)$/;"	l
+FUNC_BEGIN	src/riscv/mycpu/libgcc/div.S	/^FUNC_BEGIN (__udivdi3)$/;"	l
+FUNC_BEGIN	src/riscv/mycpu/libgcc/div.S	/^FUNC_BEGIN (__udivsi3)$/;"	l
+FUNC_BEGIN	src/riscv/mycpu/libgcc/div.S	/^FUNC_BEGIN (__umoddi3)$/;"	l
+FUNC_BEGIN	src/riscv/mycpu/libgcc/div.S	/^FUNC_BEGIN (__umodsi3)$/;"	l
+FUNC_BEGIN	src/riscv/mycpu/libgcc/muldi3.S	/^#define FUNC_BEGIN(X)		\\$/;"	d
+FUNC_BEGIN	src/riscv/mycpu/libgcc/muldi3.S	/^FUNC_BEGIN (__muldi3)$/;"	l
+FUNC_END	src/riscv/mycpu/libgcc/div.S	/^#define FUNC_END(X)		\\$/;"	d
+FUNC_END	src/riscv/mycpu/libgcc/div.S	/^FUNC_END (__divdi3)$/;"	l
+FUNC_END	src/riscv/mycpu/libgcc/div.S	/^FUNC_END (__divsi3)$/;"	l
+FUNC_END	src/riscv/mycpu/libgcc/div.S	/^FUNC_END (__moddi3)$/;"	l
+FUNC_END	src/riscv/mycpu/libgcc/div.S	/^FUNC_END (__udivdi3)$/;"	l
+FUNC_END	src/riscv/mycpu/libgcc/div.S	/^FUNC_END (__udivsi3)$/;"	l
+FUNC_END	src/riscv/mycpu/libgcc/div.S	/^FUNC_END (__umoddi3)$/;"	l
+FUNC_END	src/riscv/mycpu/libgcc/div.S	/^FUNC_END (__umodsi3)$/;"	l
+FUNC_END	src/riscv/mycpu/libgcc/muldi3.S	/^#define FUNC_END(X)		\\$/;"	d
+FUNC_END	src/riscv/mycpu/libgcc/muldi3.S	/^FUNC_END (__muldi3)/;"	l
+FUNC_SIZE	src/riscv/mycpu/libgcc/div.S	/^#define FUNC_SIZE(X)	.size X,.-X$/;"	d
+FUNC_SIZE	src/riscv/mycpu/libgcc/muldi3.S	/^#define FUNC_SIZE(X)	.size X,.-X$/;"	d
+FUNC_TYPE	src/riscv/mycpu/libgcc/div.S	/^#define FUNC_TYPE(X)	.type X,@function$/;"	d
+FUNC_TYPE	src/riscv/mycpu/libgcc/muldi3.S	/^#define FUNC_TYPE(X)	.type X,@function$/;"	d
+G	src/x86/qemu/ioe.c	/^static inline uint8_t G(uint32_t p) { return p >> 8; }$/;"	f	file:
+GATE	src/x86/qemu/cte.c	6;"	d	file:
+GATE	src/x86/qemu/cte.c	9;"	d	file:
+GATE32	src/x86/x86.h	211;"	d
+GATE64	src/x86/x86.h	215;"	d
+GDT_ENTRY	src/x86/qemu/boot/start.S	/^#define GDT_ENTRY(n)  \\$/;"	d
+GMASK	src/native/ioe/gpu.c	17;"	d	file:
+GPR1	include/arch/mips32-nemu.h	10;"	d
+GPR1	include/arch/native.h	18;"	d
+GPR1	include/arch/riscv32-nemu.h	10;"	d
+GPR1	include/arch/riscv64-mycpu.h	9;"	d
+GPR1	include/arch/riscv64-nemu.h	10;"	d
+GPR1	include/arch/spike.h	8;"	d
+GPR1	include/arch/x86-nemu.h	11;"	d
+GPR1	include/arch/x86-qemu.h	11;"	d
+GPR1	include/arch/x86_64-qemu.h	15;"	d
+GPR2	include/arch/mips32-nemu.h	11;"	d
+GPR2	include/arch/native.h	19;"	d
+GPR2	include/arch/riscv32-nemu.h	11;"	d
+GPR2	include/arch/riscv64-mycpu.h	10;"	d
+GPR2	include/arch/riscv64-nemu.h	11;"	d
+GPR2	include/arch/spike.h	9;"	d
+GPR2	include/arch/x86-nemu.h	12;"	d
+GPR2	include/arch/x86-qemu.h	12;"	d
+GPR2	include/arch/x86_64-qemu.h	16;"	d
+GPR3	include/arch/mips32-nemu.h	12;"	d
+GPR3	include/arch/native.h	20;"	d
+GPR3	include/arch/riscv32-nemu.h	12;"	d
+GPR3	include/arch/riscv64-mycpu.h	11;"	d
+GPR3	include/arch/riscv64-nemu.h	12;"	d
+GPR3	include/arch/spike.h	10;"	d
+GPR3	include/arch/x86-nemu.h	13;"	d
+GPR3	include/arch/x86-qemu.h	13;"	d
+GPR3	include/arch/x86_64-qemu.h	17;"	d
+GPR4	include/arch/mips32-nemu.h	13;"	d
+GPR4	include/arch/native.h	21;"	d
+GPR4	include/arch/riscv32-nemu.h	13;"	d
+GPR4	include/arch/riscv64-mycpu.h	12;"	d
+GPR4	include/arch/riscv64-nemu.h	13;"	d
+GPR4	include/arch/spike.h	11;"	d
+GPR4	include/arch/x86-nemu.h	14;"	d
+GPR4	include/arch/x86-qemu.h	14;"	d
+GPR4	include/arch/x86_64-qemu.h	18;"	d
+GPRx	include/arch/mips32-nemu.h	14;"	d
+GPRx	include/arch/native.h	22;"	d
+GPRx	include/arch/riscv32-nemu.h	14;"	d
+GPRx	include/arch/riscv64-mycpu.h	13;"	d
+GPRx	include/arch/riscv64-nemu.h	14;"	d
+GPRx	include/arch/spike.h	12;"	d
+GPRx	include/arch/x86-nemu.h	15;"	d
+GPRx	include/arch/x86-qemu.h	15;"	d
+GPRx	include/arch/x86_64-qemu.h	19;"	d
+GateDesc32	src/x86/x86.h	/^} GateDesc32;$/;"	t	typeref:struct:__anon5
+GateDesc64	src/x86/x86.h	/^} GateDesc64;$/;"	t	typeref:struct:__anon6
+H	src/native/ioe/gpu.c	11;"	d	file:
+H	src/native/ioe/gpu.c	8;"	d	file:
+ICRHI	src/x86/qemu/ioe.c	367;"	d	file:
+ICRLO	src/x86/qemu/ioe.c	357;"	d	file:
+ID	src/x86/qemu/ioe.c	350;"	d	file:
+IDT_ENTRY	src/x86/qemu/cte.c	115;"	d	file:
+INIT	src/x86/qemu/ioe.c	358;"	d	file:
+INT_ACTIVELOW	src/x86/qemu/ioe.c	387;"	d	file:
+INT_DISABLED	src/x86/qemu/ioe.c	385;"	d	file:
+INT_LEVEL	src/x86/qemu/ioe.c	386;"	d	file:
+INT_LOGICAL	src/x86/qemu/ioe.c	388;"	d	file:
+IOAPIC	src/x86/qemu/ioe.c	/^struct IOAPIC {$/;"	s	file:
+IOAPIC	src/x86/qemu/ioe.c	/^typedef struct IOAPIC IOAPIC;$/;"	t	typeref:struct:IOAPIC	file:
+IOAPIC_ADDR	src/x86/qemu/ioe.c	380;"	d	file:
+IRQ	src/x86/qemu/cte.c	45;"	d	file:
+IRQHANDLE_DECL	src/x86/qemu/cte.c	12;"	d	file:
+IRQS	src/x86/x86.h	54;"	d
+IRQ_COM1	src/x86/x86.h	37;"	d
+IRQ_DEF	src/x86/qemu/trap32.S	/^#define IRQ_DEF(id, dpl, err) \\$/;"	d
+IRQ_DEF	src/x86/qemu/trap64.S	/^#define IRQ_DEF(id, dpl, err) \\$/;"	d
+IRQ_ERROR	src/x86/x86.h	38;"	d
+IRQ_KBD	src/x86/x86.h	36;"	d
+IRQ_SPURIOUS	src/x86/x86.h	39;"	d
+IRQ_TIMER	src/x86/x86.h	35;"	d
+KBD_ADDR	src/platform/nemu/include/nemu.h	28;"	d
+KEYDOWN_MASK	src/native/ioe/input.c	4;"	d	file:
+KEYDOWN_MASK	src/platform/nemu/ioe/input.c	4;"	d	file:
+KEY_QUEUE_LEN	src/native/ioe/input.c	6;"	d	file:
+KSEL	src/x86/x86.h	30;"	d
+LEVEL	src/x86/qemu/ioe.c	363;"	d	file:
+LINT0	src/x86/qemu/ioe.c	372;"	d	file:
+LINT1	src/x86/qemu/ioe.c	373;"	d	file:
+LOAD	src/riscv/nemu/trap.S	/^#define LOAD  ld$/;"	d
+LOAD	src/riscv/nemu/trap.S	/^#define LOAD  lw$/;"	d
+MAINARGS	src/platform/nemu/trm.c	9;"	d	file:
+MAINARGS	src/riscv/mycpu/trm.c	13;"	d	file:
+MAINARGS	src/riscv/spike/trm.c	15;"	d	file:
+MAINARG_ADDR	src/x86/x86.h	96;"	d
+MAP	src/mips/nemu/trap.S	/^#define MAP(c, f) c(f)$/;"	d
+MAP	src/riscv/mycpu/trap.S	/^#define MAP(c, f) c(f)$/;"	d
+MAP	src/riscv/nemu/trap.S	/^#define MAP(c, f) c(f)$/;"	d
+MASKED	src/x86/qemu/ioe.c	375;"	d	file:
+MAX_CPU	src/native/platform.c	10;"	d	file:
+MAX_CPU	src/x86/x86.h	94;"	d
+MIPS32_H__	src/mips/mips32.h	2;"	d
+MMAP_NONE	include/am.h	11;"	d
+MMAP_READ	include/am.h	12;"	d
+MMAP_WRITE	include/am.h	13;"	d
+MMIO_BASE	src/platform/nemu/include/nemu.h	25;"	d
+MODE_M	src/riscv/riscv.h	/^enum { MODE_U, MODE_S, MODE_M = 3 };$/;"	e	enum:__anon3
+MODE_S	src/riscv/riscv.h	/^enum { MODE_U, MODE_S, MODE_M = 3 };$/;"	e	enum:__anon3
+MODE_U	src/riscv/riscv.h	/^enum { MODE_U, MODE_S, MODE_M = 3 };$/;"	e	enum:__anon3
+MPConf	src/x86/x86.h	/^} MPConf;$/;"	t	typeref:struct:__anon9
+MPDesc	src/x86/x86.h	/^} MPDesc;$/;"	t	typeref:struct:__anon10
+MSG	src/x86/qemu/cte.c	46;"	d	file:
+MSTATUS_MXR	src/riscv/riscv.h	23;"	d
+MSTATUS_SUM	src/riscv/riscv.h	24;"	d
+MSTATUS_SXL	src/riscv/riscv.h	27;"	d
+MSTATUS_SXL	src/riscv/riscv.h	30;"	d
+MSTATUS_UXL	src/riscv/riscv.h	28;"	d
+MSTATUS_UXL	src/riscv/riscv.h	31;"	d
+NAME	Makefile	/^NAME     := am$/;"	m
+NEMU_H__	src/platform/nemu/include/nemu.h	2;"	d
+NEMU_PADDR_SPACE	src/platform/nemu/include/nemu.h	39;"	d
+NOERR	src/x86/qemu/trap32.S	/^#define NOERR     push $0$/;"	d
+NOERR	src/x86/qemu/trap64.S	/^#define NOERR     push $0$/;"	d
+NR_IRQ	src/x86/nemu/cte.c	5;"	d	file:
+NR_IRQ	src/x86/qemu/x86-qemu.h	13;"	d
+NR_SEG	src/x86/qemu/x86-qemu.h	6;"	d
+OFFSET_CAUSE	src/mips/nemu/trap.S	/^#define OFFSET_CAUSE  (34 * 4)$/;"	d
+OFFSET_CAUSE	src/riscv/mycpu/trap.S	/^#define OFFSET_CAUSE  (32 * 8)$/;"	d
+OFFSET_CAUSE	src/riscv/nemu/trap.S	/^#define OFFSET_CAUSE  (32 * XLEN)$/;"	d
+OFFSET_EPC	src/mips/nemu/trap.S	/^#define OFFSET_EPC    (36 * 4)$/;"	d
+OFFSET_EPC	src/riscv/mycpu/trap.S	/^#define OFFSET_EPC    (34 * 8)$/;"	d
+OFFSET_EPC	src/riscv/nemu/trap.S	/^#define OFFSET_EPC    (34 * XLEN)$/;"	d
+OFFSET_HI	src/mips/nemu/trap.S	/^#define OFFSET_HI     (33 * 4)$/;"	d
+OFFSET_LO	src/mips/nemu/trap.S	/^#define OFFSET_LO     (32 * 4)$/;"	d
+OFFSET_SP	src/mips/nemu/trap.S	/^#define OFFSET_SP     (29 * 4)$/;"	d
+OFFSET_SP	src/riscv/mycpu/trap.S	/^#define OFFSET_SP     ( 2 * 8)$/;"	d
+OFFSET_SP	src/riscv/nemu/trap.S	/^#define OFFSET_SP     ( 2 * XLEN)$/;"	d
+OFFSET_STATUS	src/mips/nemu/trap.S	/^#define OFFSET_STATUS (35 * 4)$/;"	d
+OFFSET_STATUS	src/riscv/mycpu/trap.S	/^#define OFFSET_STATUS (33 * 8)$/;"	d
+OFFSET_STATUS	src/riscv/nemu/trap.S	/^#define OFFSET_STATUS (33 * XLEN)$/;"	d
+PCINT	src/x86/qemu/ioe.c	371;"	d	file:
+PDPT_ADDR	src/x86/qemu/x86-qemu.h	4;"	d
+PDX	src/mips/mips32.h	21;"	d
+PDXSHFT	src/mips/mips32.h	19;"	d
+PERIODIC	src/x86/qemu/ioe.c	370;"	d	file:
+PGSIZE	src/platform/nemu/include/nemu.h	46;"	d
+PMEM_END	src/platform/nemu/include/nemu.h	38;"	d
+PMEM_END	src/riscv/mycpu/trm.c	9;"	d	file:
+PMEM_END	src/riscv/spike/trm.c	11;"	d	file:
+PMEM_SIZE	src/native/platform.c	13;"	d	file:
+PMEM_SIZE	src/platform/nemu/include/nemu.h	37;"	d
+PMEM_SIZE	src/riscv/mycpu/trm.c	8;"	d	file:
+PMEM_SIZE	src/riscv/spike/trm.c	10;"	d	file:
+PMEM_START	src/native/platform.c	12;"	d	file:
+PML4_ADDR	src/x86/qemu/x86-qemu.h	3;"	d
+POP	src/mips/nemu/trap.S	/^#define POP(n)  lw $n, (n * 4)($sp);$/;"	d
+POP	src/riscv/mycpu/trap.S	/^#define POP(n)  ld concat(x, n), (n * 8)(sp);$/;"	d
+POP	src/riscv/nemu/trap.S	/^#define POP(n)  LOAD  concat(x, n), (n * XLEN)(sp);$/;"	d
+PTE	src/platform/nemu/include/nemu.h	/^typedef uintptr_t PTE;$/;"	t
+PTE_A	src/riscv/riscv.h	19;"	d
+PTE_D	src/mips/mips32.h	15;"	d
+PTE_D	src/riscv/riscv.h	20;"	d
+PTE_P	src/x86/x86.h	24;"	d
+PTE_PS	src/x86/x86.h	27;"	d
+PTE_R	src/riscv/riscv.h	15;"	d
+PTE_U	src/riscv/riscv.h	18;"	d
+PTE_U	src/x86/x86.h	26;"	d
+PTE_V	src/mips/mips32.h	14;"	d
+PTE_V	src/riscv/riscv.h	14;"	d
+PTE_W	src/riscv/riscv.h	16;"	d
+PTE_W	src/x86/x86.h	25;"	d
+PTE_X	src/riscv/riscv.h	17;"	d
+PTX	src/mips/mips32.h	22;"	d
+PTXSHFT	src/mips/mips32.h	18;"	d
+PUSH	src/mips/nemu/trap.S	/^#define PUSH(n) sw $n, (n * 4)($sp);$/;"	d
+PUSH	src/riscv/mycpu/trap.S	/^#define PUSH(n) sd concat(x, n), (n * 8)(sp);$/;"	d
+PUSH	src/riscv/nemu/trap.S	/^#define PUSH(n) STORE concat(x, n), (n * XLEN)(sp);$/;"	d
+PageMap	src/native/vme.c	/^typedef struct PageMap {$/;"	s	file:
+PageMap	src/native/vme.c	/^} PageMap;$/;"	t	typeref:struct:PageMap	file:
+R	src/x86/qemu/ioe.c	/^static inline uint8_t R(uint32_t p) { return p >> 16; }$/;"	f	file:
+REGS	src/mips/nemu/trap.S	/^#define REGS(f) \\$/;"	d
+REGS	src/riscv/mycpu/trap.S	/^#define REGS(f) \\$/;"	d
+REGS	src/riscv/nemu/trap.S	/^#define REGS(f) \\$/;"	d
+REG_ID	src/x86/qemu/ioe.c	381;"	d	file:
+REG_TABLE	src/x86/qemu/ioe.c	383;"	d	file:
+REG_VER	src/x86/qemu/ioe.c	382;"	d	file:
+RISCV_H__	src/riscv/riscv.h	2;"	d
+RMASK	src/native/ioe/gpu.c	16;"	d	file:
+RTC_ADDR	src/platform/nemu/include/nemu.h	29;"	d
+SECTSIZE	src/x86/qemu/boot/main.c	5;"	d	file:
+SEG16	src/x86/x86.h	193;"	d
+SEG32	src/x86/x86.h	198;"	d
+SEG64	src/x86/x86.h	203;"	d
+SEGTSS64	src/x86/x86.h	206;"	d
+SEG_ASM	src/x86/qemu/boot/start.S	/^#define SEG_ASM(type, base, lim)                          \\$/;"	d
+SEG_KCODE	src/x86/nemu/cte.c	6;"	d	file:
+SEG_KCODE	src/x86/qemu/x86-qemu.h	7;"	d
+SEG_KDATA	src/x86/nemu/cte.c	7;"	d	file:
+SEG_KDATA	src/x86/qemu/x86-qemu.h	8;"	d
+SEG_NULLASM	src/x86/qemu/boot/start.S	/^#define SEG_NULLASM   \\$/;"	d
+SEG_TSS	src/x86/qemu/x86-qemu.h	11;"	d
+SEG_UCODE	src/x86/qemu/x86-qemu.h	9;"	d
+SEG_UDATA	src/x86/qemu/x86-qemu.h	10;"	d
+SERIAL_PORT	src/platform/nemu/include/nemu.h	27;"	d
+SPINLOCK_INIT	src/riscv/spike/atomic.h	14;"	d
+SRCS	Makefile	/^SRCS      = $(addprefix src\/, $(AM_SRCS))$/;"	m
+SRCS	src/x86/qemu/boot/Makefile	/^SRCS := start.S main.c$/;"	m
+STARTUP	src/x86/qemu/ioe.c	359;"	d	file:
+STA_R	src/x86/x86.h	8;"	d
+STA_W	src/x86/x86.h	7;"	d
+STA_X	src/x86/x86.h	6;"	d
+STORE	src/riscv/nemu/trap.S	/^#define STORE sd$/;"	d
+STORE	src/riscv/nemu/trap.S	/^#define STORE sw$/;"	d
+STS_IG	src/x86/x86.h	12;"	d
+STS_T32A	src/x86/x86.h	11;"	d
+STS_TG	src/x86/x86.h	13;"	d
+SVR	src/x86/qemu/ioe.c	354;"	d	file:
+SYNC_ADDR	src/platform/nemu/ioe/gpu.c	4;"	d	file:
+SYSCALL_INSTR_LEN	src/native/cte.c	6;"	d	file:
+SegDesc	src/x86/x86.h	/^} SegDesc;$/;"	t	typeref:struct:__anon4
+TCCR	src/x86/qemu/ioe.c	377;"	d	file:
+TDCR	src/x86/qemu/ioe.c	378;"	d	file:
+TICR	src/x86/qemu/ioe.c	376;"	d	file:
+TIMER	src/x86/qemu/ioe.c	368;"	d	file:
+TIMER_HZ	src/native/cte.c	5;"	d	file:
+TIME_BASE	src/riscv/spike/timer.c	6;"	d	file:
+TOHOST	src/riscv/spike/htif.c	13;"	d	file:
+TOHOST_CMD	src/riscv/spike/htif.h	12;"	d
+TOHOST_CMD	src/riscv/spike/htif.h	9;"	d
+TOHOST_OFFSET	src/riscv/spike/htif.c	16;"	d	file:
+TPR	src/x86/qemu/ioe.c	352;"	d	file:
+TRAP_PAGE_START	src/native/platform.c	11;"	d	file:
+TSS32	src/x86/x86.h	/^} __attribute__((packed)) TSS32;$/;"	t	typeref:struct:__anon7
+TSS64	src/x86/x86.h	/^} __attribute__((packed)) TSS64;$/;"	t	typeref:struct:__anon8
+T_IRQ0	src/x86/x86.h	34;"	d
+USEL	src/x86/x86.h	31;"	d
+USER_SPACE	src/mips/nemu/vme.c	4;"	d	file:
+USER_SPACE	src/native/vme.c	5;"	d	file:
+USER_SPACE	src/riscv/nemu/vme.c	14;"	d	file:
+USER_SPACE	src/x86/nemu/vme.c	14;"	d	file:
+VER	src/x86/qemu/ioe.c	351;"	d	file:
+VGACTL_ADDR	src/platform/nemu/include/nemu.h	30;"	d
+VMEM_SIZE	src/x86/qemu/ioe.c	151;"	d	file:
+VMHead	src/native/vme.c	/^typedef struct VMHead {$/;"	s	file:
+VMHead	src/native/vme.c	/^} VMHead;$/;"	t	typeref:struct:VMHead	file:
+W	src/native/ioe/gpu.c	10;"	d	file:
+W	src/native/ioe/gpu.c	7;"	d	file:
+X	src/riscv/mycpu/libgcc/div.S	/^	X = Y$/;"	d
+X	src/riscv/mycpu/libgcc/div.S	/^X:$/;"	l
+X	src/riscv/mycpu/libgcc/muldi3.S	/^X:$/;"	l
+X1	src/x86/qemu/ioe.c	369;"	d	file:
+XLEN	src/riscv/nemu/trap.S	/^#define XLEN  4$/;"	d
+XLEN	src/riscv/nemu/trap.S	/^#define XLEN  8$/;"	d
+XX	src/native/ioe/input.c	11;"	d	file:
+_GNU_SOURCE	src/native/ioe/audio.c	1;"	d	file:
+_GNU_SOURCE	src/native/platform.c	1;"	d	file:
+_GNU_SOURCE	src/native/vme.c	1;"	d	file:
+_RISCV_ATOMIC_H	src/riscv/spike/atomic.h	4;"	d
+_RISCV_HTIF_H	src/riscv/spike/htif.h	4;"	d
+__AMDEV_H__	include/amdev.h	2;"	d
+__ARCH_H__	include/arch/mips32-nemu.h	2;"	d
+__PLATFORM_H__	src/native/platform.h	2;"	d
+__USE_GNU	include/arch/native.h	24;"	d
+__USE_GNU	include/arch/native.h	5;"	d
+__am_asm_trap	src/mips/nemu/trap.S	/^__am_asm_trap:$/;"	l
+__am_asm_trap	src/riscv/mycpu/trap.S	/^__am_asm_trap:$/;"	l
+__am_asm_trap	src/riscv/nemu/trap.S	/^__am_asm_trap:$/;"	l
+__am_asm_trap	src/x86/nemu/trap.S	/^__am_asm_trap:$/;"	l
+__am_audio_config	src/native/ioe/audio.c	/^void __am_audio_config(AM_AUDIO_CONFIG_T *cfg) {$/;"	f
+__am_audio_config	src/platform/nemu/ioe/audio.c	/^void __am_audio_config(AM_AUDIO_CONFIG_T *cfg) {$/;"	f
+__am_audio_ctrl	src/native/ioe/audio.c	/^void __am_audio_ctrl(AM_AUDIO_CTRL_T *ctrl) {$/;"	f
+__am_audio_ctrl	src/platform/nemu/ioe/audio.c	/^void __am_audio_ctrl(AM_AUDIO_CTRL_T *ctrl) {$/;"	f
+__am_audio_init	src/native/ioe/audio.c	/^void __am_audio_init() {$/;"	f
+__am_audio_init	src/platform/nemu/ioe/audio.c	/^void __am_audio_init() {$/;"	f
+__am_audio_play	src/native/ioe/audio.c	/^void __am_audio_play(AM_AUDIO_PLAY_T *ctl) {$/;"	f
+__am_audio_play	src/platform/nemu/ioe/audio.c	/^void __am_audio_play(AM_AUDIO_PLAY_T *ctl) {$/;"	f
+__am_audio_status	src/native/ioe/audio.c	/^void __am_audio_status(AM_AUDIO_STATUS_T *stat) {$/;"	f
+__am_audio_status	src/platform/nemu/ioe/audio.c	/^void __am_audio_status(AM_AUDIO_STATUS_T *stat) {$/;"	f
+__am_bootcpu_init	src/x86/qemu/trm.c	/^void __am_bootcpu_init() {$/;"	f
+__am_cpu_struct	src/native/platform.c	/^__am_cpu_t *__am_cpu_struct = NULL;$/;"	v
+__am_cpu_t	src/native/platform.h	/^} __am_cpu_t;$/;"	t	typeref:struct:__anon1
+__am_cpuinfo	src/x86/qemu/mpe.c	/^struct cpu_local __am_cpuinfo[MAX_CPU] = {};$/;"	v	typeref:struct:cpu_local
+__am_disk_blkio	src/native/ioe/disk.c	/^void __am_disk_blkio(AM_DISK_BLKIO_T *io) {$/;"	f
+__am_disk_blkio	src/platform/nemu/ioe/disk.c	/^void __am_disk_blkio(AM_DISK_BLKIO_T *io) {$/;"	f
+__am_disk_config	src/native/ioe/disk.c	/^void __am_disk_config(AM_DISK_CONFIG_T *cfg) {$/;"	f
+__am_disk_config	src/platform/nemu/ioe/disk.c	/^void __am_disk_config(AM_DISK_CONFIG_T *cfg) {$/;"	f
+__am_disk_init	src/native/ioe/disk.c	/^void __am_disk_init() {$/;"	f
+__am_disk_status	src/native/ioe/disk.c	/^void __am_disk_status(AM_DISK_STATUS_T *stat) {$/;"	f
+__am_disk_status	src/platform/nemu/ioe/disk.c	/^void __am_disk_status(AM_DISK_STATUS_T *stat) {$/;"	f
+__am_exit_platform	src/native/platform.c	/^void __am_exit_platform(int code) {$/;"	f
+__am_get_cur_as	src/mips/nemu/vme.c	/^void __am_get_cur_as(Context *c) {$/;"	f
+__am_get_cur_as	src/riscv/nemu/vme.c	/^void __am_get_cur_as(Context *c) {$/;"	f
+__am_get_cur_as	src/x86/nemu/vme.c	/^void __am_get_cur_as(Context *c) {$/;"	f
+__am_get_example_uc	src/native/platform.c	/^void __am_get_example_uc(Context *r) {$/;"	f
+__am_get_intr_sigmask	src/native/platform.c	/^void __am_get_intr_sigmask(sigset_t *s) {$/;"	f
+__am_gpu_config	src/native/ioe/gpu.c	/^void __am_gpu_config(AM_GPU_CONFIG_T *cfg) {$/;"	f
+__am_gpu_config	src/platform/nemu/ioe/gpu.c	/^void __am_gpu_config(AM_GPU_CONFIG_T *cfg) {$/;"	f
+__am_gpu_fbdraw	src/native/ioe/gpu.c	/^void __am_gpu_fbdraw(AM_GPU_FBDRAW_T *ctl) {$/;"	f
+__am_gpu_fbdraw	src/platform/nemu/ioe/gpu.c	/^void __am_gpu_fbdraw(AM_GPU_FBDRAW_T *ctl) {$/;"	f
+__am_gpu_init	src/native/ioe/gpu.c	/^void __am_gpu_init() {$/;"	f
+__am_gpu_init	src/platform/nemu/ioe/gpu.c	/^void __am_gpu_init() {$/;"	f
+__am_gpu_status	src/native/ioe/gpu.c	/^void __am_gpu_status(AM_GPU_STATUS_T *stat) {$/;"	f
+__am_gpu_status	src/platform/nemu/ioe/gpu.c	/^void __am_gpu_status(AM_GPU_STATUS_T *status) {$/;"	f
+__am_has_ioe	src/native/ioe.c	/^bool __am_has_ioe = false;$/;"	v
+__am_heap_init	src/x86/qemu/trm.c	/^Area __am_heap_init() {$/;"	f
+__am_in_userspace	src/native/vme.c	/^int __am_in_userspace(void *addr) {$/;"	f
+__am_init_timer_irq	src/native/cte.c	/^void __am_init_timer_irq() {$/;"	f
+__am_input_config	src/native/ioe/input.c	/^void __am_input_config(AM_INPUT_CONFIG_T *cfg) {$/;"	f
+__am_input_config	src/platform/nemu/ioe/ioe.c	/^static void __am_input_config(AM_INPUT_CONFIG_T *cfg) { cfg->present = true;  }$/;"	f	file:
+__am_input_config	src/riscv/mycpu/ioe.c	/^static void __am_input_config(AM_INPUT_CONFIG_T *cfg) { cfg->present = true;  }$/;"	f	file:
+__am_input_init	src/native/ioe/input.c	/^void __am_input_init() {$/;"	f
+__am_input_keybrd	src/native/ioe/input.c	/^void __am_input_keybrd(AM_INPUT_KEYBRD_T *kbd) {$/;"	f
+__am_input_keybrd	src/platform/nemu/ioe/input.c	/^void __am_input_keybrd(AM_INPUT_KEYBRD_T *kbd) {$/;"	f
+__am_input_keybrd	src/riscv/mycpu/input.c	/^void __am_input_keybrd(AM_INPUT_KEYBRD_T *kbd) {$/;"	f
+__am_intr_sigmask	src/native/platform.c	/^sigset_t __am_intr_sigmask = {};$/;"	v
+__am_ioapic_enable	src/x86/qemu/ioe.c	/^void __am_ioapic_enable(int irq, int cpunum) {$/;"	f
+__am_ioapic_init	src/x86/qemu/ioe.c	/^void __am_ioapic_init(void) {$/;"	f
+__am_ioe_init	src/native/ioe.c	/^void __am_ioe_init() {$/;"	f
+__am_iret	src/x86/qemu/trap32.S	/^__am_iret:$/;"	l
+__am_iret	src/x86/qemu/trap64.S	/^__am_iret:$/;"	l
+__am_irq_handle	src/mips/nemu/cte.c	/^Context* __am_irq_handle(Context *c) {$/;"	f
+__am_irq_handle	src/riscv/mycpu/cte.c	/^Context* __am_irq_handle(Context *c) {$/;"	f
+__am_irq_handle	src/riscv/nemu/cte.c	/^Context* __am_irq_handle(Context *c) {$/;"	f
+__am_irq_handle	src/x86/nemu/cte.c	/^Context* __am_irq_handle(Context *c) {$/;"	f
+__am_irq_handle	src/x86/qemu/cte.c	/^void __am_irq_handle(struct trap_frame *tf) {$/;"	f
+__am_is_sigmask_sti	src/native/platform.c	/^int __am_is_sigmask_sti(sigset_t *s) {$/;"	f
+__am_kcontext_start	src/native/trap.S	/^__am_kcontext_start:$/;"	l
+__am_kcontext_start	src/x86/qemu/cte.c	/^void __am_kcontext_start();$/;"	v
+__am_kcontext_start	src/x86/qemu/trap32.S	/^__am_kcontext_start:$/;"	l
+__am_kcontext_start	src/x86/qemu/trap64.S	/^__am_kcontext_start:$/;"	l
+__am_lapic	src/x86/qemu/ioe.c	/^volatile unsigned int *__am_lapic = NULL;  \/\/ Initialized in mp.c$/;"	v
+__am_lapic_bootap	src/x86/qemu/ioe.c	/^void __am_lapic_bootap(uint32_t apicid, void *addr) {$/;"	f
+__am_lapic_eoi	src/x86/qemu/ioe.c	/^void __am_lapic_eoi(void) {$/;"	f
+__am_lapic_init	src/x86/qemu/trm.c	/^void __am_lapic_init() {$/;"	f
+__am_mpe_init	src/native/mpe.c	/^int __am_mpe_init = 0;$/;"	v
+__am_ncpu	src/native/platform.c	/^int __am_ncpu = 0;$/;"	v
+__am_ncpu	src/x86/qemu/trm.c	/^int __am_ncpu = 0;$/;"	v
+__am_net_config	src/native/ioe.c	/^static void __am_net_config (AM_NET_CONFIG_T *cfg)    { cfg->present = false; }$/;"	f	file:
+__am_net_config	src/platform/nemu/ioe/ioe.c	/^static void __am_net_config (AM_NET_CONFIG_T *cfg)    { cfg->present = false; }$/;"	f	file:
+__am_othercpu_entry	src/x86/qemu/mpe.c	/^void __am_othercpu_entry() {$/;"	f
+__am_panic_on_return	src/native/cte.c	/^void __am_panic_on_return() { panic("should not reach here\\n"); }$/;"	f
+__am_panic_on_return	src/x86/qemu/cte.c	/^void __am_panic_on_return() { panic("kernel context returns"); }$/;"	f
+__am_percpu_init	src/x86/qemu/trm.c	/^void __am_percpu_init() {$/;"	f
+__am_percpu_initgdt	src/x86/qemu/trm.c	/^void __am_percpu_initgdt() {$/;"	f
+__am_percpu_initirq	src/x86/qemu/cte.c	/^void __am_percpu_initirq() {$/;"	f
+__am_percpu_initlapic	src/x86/qemu/ioe.c	/^void __am_percpu_initlapic(void) {$/;"	f
+__am_pgsize	src/native/platform.c	/^int __am_pgsize;$/;"	v
+__am_platform_dummy	src/native/platform.c	/^void __am_platform_dummy() {$/;"	f
+__am_pmem_map	src/native/platform.c	/^void __am_pmem_map(void *va, void *pa, int prot) {$/;"	f
+__am_pmem_protect	src/native/platform.c	/^void __am_pmem_protect() {$/;"	f
+__am_pmem_unmap	src/native/platform.c	/^void __am_pmem_unmap(void *va) {$/;"	f
+__am_pmem_unprotect	src/native/platform.c	/^void __am_pmem_unprotect() {$/;"	f
+__am_send_kbd_intr	src/native/platform.c	/^void __am_send_kbd_intr() {$/;"	f
+__am_stop_the_world	src/x86/qemu/mpe.c	/^void __am_stop_the_world() {$/;"	f
+__am_switch	src/mips/nemu/vme.c	/^void __am_switch(Context *c) {$/;"	f
+__am_switch	src/native/vme.c	/^void __am_switch(Context *c) {$/;"	f
+__am_switch	src/riscv/nemu/vme.c	/^void __am_switch(Context *c) {$/;"	f
+__am_switch	src/x86/nemu/vme.c	/^void __am_switch(Context *c) {$/;"	f
+__am_timer_config	src/native/ioe/timer.c	/^void __am_timer_config(AM_TIMER_CONFIG_T *cfg) {$/;"	f
+__am_timer_config	src/platform/nemu/ioe/ioe.c	/^static void __am_timer_config(AM_TIMER_CONFIG_T *cfg) { cfg->present = true; cfg->has_rtc = true; }$/;"	f	file:
+__am_timer_config	src/riscv/mycpu/ioe.c	/^static void __am_timer_config(AM_TIMER_CONFIG_T *cfg) { cfg->present = true; cfg->has_rtc = true; }$/;"	f	file:
+__am_timer_config	src/riscv/spike/ioe.c	/^static void __am_timer_config(AM_TIMER_CONFIG_T *cfg) { cfg->present = true; cfg->has_rtc = true; }$/;"	f	file:
+__am_timer_init	src/native/ioe/timer.c	/^void __am_timer_init() {$/;"	f
+__am_timer_init	src/platform/nemu/ioe/timer.c	/^void __am_timer_init() {$/;"	f
+__am_timer_init	src/riscv/mycpu/timer.c	/^void __am_timer_init() {$/;"	f
+__am_timer_init	src/riscv/spike/timer.c	/^void __am_timer_init() {$/;"	f
+__am_timer_rtc	src/native/ioe/timer.c	/^void __am_timer_rtc(AM_TIMER_RTC_T *rtc) {$/;"	f
+__am_timer_rtc	src/platform/nemu/ioe/timer.c	/^void __am_timer_rtc(AM_TIMER_RTC_T *rtc) {$/;"	f
+__am_timer_rtc	src/riscv/mycpu/timer.c	/^void __am_timer_rtc(AM_TIMER_RTC_T *rtc) {$/;"	f
+__am_timer_rtc	src/riscv/spike/timer.c	/^void __am_timer_rtc(AM_TIMER_RTC_T *rtc) {$/;"	f
+__am_timer_uptime	src/native/ioe/timer.c	/^void __am_timer_uptime(AM_TIMER_UPTIME_T *uptime) {$/;"	f
+__am_timer_uptime	src/platform/nemu/ioe/timer.c	/^void __am_timer_uptime(AM_TIMER_UPTIME_T *uptime) {$/;"	f
+__am_timer_uptime	src/riscv/mycpu/timer.c	/^void __am_timer_uptime(AM_TIMER_UPTIME_T *uptime) {$/;"	f
+__am_timer_uptime	src/riscv/spike/timer.c	/^void __am_timer_uptime(AM_TIMER_UPTIME_T *uptime) {$/;"	f
+__am_uart_config	src/native/ioe.c	/^static void __am_uart_config(AM_UART_CONFIG_T *cfg)   { cfg->present = false; }$/;"	f	file:
+__am_uart_config	src/platform/nemu/ioe/ioe.c	/^static void __am_uart_config(AM_UART_CONFIG_T *cfg)   { cfg->present = false; }$/;"	f	file:
+__check_fromhost	src/riscv/spike/htif.c	/^static void __check_fromhost()$/;"	f	file:
+__riscv_xlen	src/riscv/mycpu/libgcc/div.S	/^#define __riscv_xlen 64$/;"	d
+__set_tohost	src/riscv/spike/htif.c	/^static void __set_tohost(uintptr_t dev, uintptr_t cmd, uintptr_t data)$/;"	f	file:
+_start	src/mips/nemu/start.S	/^_start:$/;"	l
+_start	src/riscv/mycpu/start.S	/^_start:$/;"	l
+_start	src/riscv/nemu/start.S	/^_start:$/;"	l
+_start	src/riscv/spike/start.S	/^_start:$/;"	l
+_start	src/x86/nemu/start.S	/^_start:$/;"	l
+_start	src/x86/qemu/boot/start.S	/^_start:$/;"	l
+_start	src/x86/qemu/start32.S	/^_start:$/;"	l
+_start	src/x86/qemu/start64.S	/^_start:$/;"	l
+_start64	src/x86/qemu/start64.S	/^_start64:$/;"	l
+_start_c	src/x86/qemu/trm.c	/^void _start_c(char *args) {$/;"	f
+_trm_init	src/platform/nemu/trm.c	/^void _trm_init() {$/;"	f
+_trm_init	src/riscv/mycpu/trm.c	/^void _trm_init() {$/;"	f
+_trm_init	src/riscv/spike/trm.c	/^void _trm_init() {$/;"	f
+ap_ready	src/x86/qemu/mpe.c	/^static int ap_ready = 0;$/;"	v	file:
+area	include/am.h	/^  Area area;$/;"	m	struct:__anon15
+area	src/x86/qemu/x86-qemu.h	/^  Area area;$/;"	m	struct:vm_area
+args	src/x86/x86.h	/^  uint32_t args      :  5; \/\/ # args, 0 for interrupt\/trap gates$/;"	m	struct:__anon5
+atomic_add	src/riscv/spike/atomic.h	21;"	d
+atomic_add	src/riscv/spike/atomic.h	32;"	d
+atomic_binop	src/riscv/spike/atomic.h	26;"	d
+atomic_cas	src/riscv/spike/atomic.h	24;"	d
+atomic_cas	src/riscv/spike/atomic.h	35;"	d
+atomic_or	src/riscv/spike/atomic.h	22;"	d
+atomic_or	src/riscv/spike/atomic.h	33;"	d
+atomic_read	src/riscv/spike/atomic.h	18;"	d
+atomic_set	src/riscv/spike/atomic.h	17;"	d
+atomic_swap	src/riscv/spike/atomic.h	23;"	d
+atomic_swap	src/riscv/spike/atomic.h	34;"	d
+atomic_xchg	src/native/mpe.c	/^int atomic_xchg(int *addr, int newval) {$/;"	f
+atomic_xchg	src/platform/dummy/mpe.c	/^int atomic_xchg(int *addr, int newval) {$/;"	f
+atomic_xchg	src/platform/nemu/mpe.c	/^int atomic_xchg(int *addr, int newval) {$/;"	f
+atomic_xchg	src/riscv/mycpu/mpe.c	/^int atomic_xchg(int *addr, int newval) {$/;"	f
+atomic_xchg	src/x86/qemu/mpe.c	/^int atomic_xchg(int *addr, int newval) {$/;"	f
+audio_config	src/x86/qemu/ioe.c	/^static void audio_config(AM_AUDIO_CONFIG_T *cfg) { cfg->present = false; }$/;"	f	file:
+audio_play	src/native/ioe/audio.c	/^static void audio_play(void *userdata, uint8_t *stream, int len) {$/;"	f	file:
+audio_write	src/native/ioe/audio.c	/^static void audio_write(uint8_t *buf, int len) {$/;"	f	file:
+avl	src/x86/x86.h	/^  uint32_t avl        :  1; \/\/ Unused (available for software use)$/;"	m	struct:__anon4
+b	src/x86/qemu/ioe.c	/^  uint8_t b, g, r;$/;"	m	struct:pixel	file:
+base_15_0	src/x86/x86.h	/^  uint32_t base_15_0  : 16; \/\/ Low bits of segment base address$/;"	m	struct:__anon4
+base_23_16	src/x86/x86.h	/^  uint32_t base_23_16 :  8; \/\/ Middle bits of segment base address$/;"	m	struct:__anon4
+base_31_24	src/x86/x86.h	/^  uint32_t base_31_24 :  8; \/\/ High bits of segment base address$/;"	m	struct:__anon4
+baseof	src/x86/qemu/vme.c	/^static uintptr_t baseof(uintptr_t addr) {$/;"	f	file:
+bits	src/x86/qemu/x86-qemu.h	/^    int shift, bits;$/;"	m	struct:mmu_config::ptinfo
+boot_date	src/x86/qemu/ioe.c	/^static AM_TIMER_RTC_T boot_date;$/;"	v	file:
+boot_record	src/x86/x86.h	/^static inline volatile BootRecord *boot_record() {$/;"	f
+boot_time	src/native/ioe/timer.c	/^static struct timeval boot_time = {};$/;"	v	typeref:struct:timeval	file:
+boot_time	src/riscv/spike/timer.c	/^static uint64_t boot_time = 0;$/;"	v	file:
+bug	src/x86/qemu/x86-qemu.h	81;"	d
+bug_on	src/x86/qemu/x86-qemu.h	76;"	d
+call_main	src/x86/qemu/trm.c	/^static void call_main(const char *args) {$/;"	f	file:
+call_user_entry	src/x86/qemu/mpe.c	/^static void call_user_entry() {$/;"	f	file:
+capture_output	src/x86/qemu/boot/genboot.py	/^        capture_output=True).stdout$/;"	v
+cause	include/am.h	/^  uintptr_t cause, ref;$/;"	m	struct:__anon13
+cause	include/arch/mips32-nemu.h	/^  uintptr_t hi, gpr[32], epc, cause, lo, status;$/;"	m	struct:Context
+checksum	src/x86/x86.h	/^  uint8_t  checksum;      \/\/ all bytes must add up to 0$/;"	m	struct:__anon9
+checksum	src/x86/x86.h	/^  uint8_t  checksum; \/\/ all bytes add to 0$/;"	m	struct:__anon10
+child	include/amdev.h	/^    gpuptr_t child;$/;"	m	union:gpu_canvas::__anon17
+cli	src/x86/x86.h	/^static inline void cli() {$/;"	f
+concat	src/riscv/mycpu/trap.S	/^#define concat(x, y) concat_temp(x, y)$/;"	d
+concat	src/riscv/nemu/trap.S	/^#define concat(x, y) concat_temp(x, y)$/;"	d
+concat_temp	src/riscv/mycpu/trap.S	/^#define concat_temp(x, y) x ## y$/;"	d
+concat_temp	src/riscv/nemu/trap.S	/^#define concat_temp(x, y) x ## y$/;"	d
+conf	src/x86/x86.h	/^  uint32_t conf;     \/\/ MP config table addr$/;"	m	struct:__anon10
+copy_from_disk	src/x86/qemu/boot/main.c	/^static inline void copy_from_disk(void *buf, int nbytes, int disk_offset) {$/;"	f	file:
+count	src/native/ioe/audio.c	/^static volatile int count = 0;$/;"	v	file:
+cpu_count	src/native/mpe.c	/^int cpu_count() {$/;"	f
+cpu_count	src/platform/dummy/mpe.c	/^int cpu_count() {$/;"	f
+cpu_count	src/platform/nemu/mpe.c	/^int cpu_count() {$/;"	f
+cpu_count	src/riscv/mycpu/mpe.c	/^int cpu_count() {$/;"	f
+cpu_count	src/x86/qemu/mpe.c	/^int cpu_count() {$/;"	f
+cpu_current	src/native/mpe.c	/^int cpu_current() {$/;"	f
+cpu_current	src/platform/dummy/mpe.c	/^int cpu_current() {$/;"	f
+cpu_current	src/platform/nemu/mpe.c	/^int cpu_current() {$/;"	f
+cpu_current	src/riscv/mycpu/mpe.c	/^int cpu_current() {$/;"	f
+cpu_current	src/x86/qemu/mpe.c	/^int cpu_current(void) {$/;"	f
+cpu_local	src/x86/qemu/x86-qemu.h	/^struct cpu_local {$/;"	s
+cpuid	src/native/platform.h	/^  int cpuid;$/;"	m	struct:__anon1
+cr3	include/arch/x86-nemu.h	/^  void *cr3;$/;"	m	struct:Context
+cr3	include/arch/x86-qemu.h	/^  void    *cr3;$/;"	m	struct:Context
+cr3	include/arch/x86_64-qemu.h	/^  void    *cr3;$/;"	m	struct:Context
+cs	include/arch/x86-nemu.h	/^  uintptr_t esi, ebx, eax, eip, edx, eflags, ecx, cs, esp, edi, ebp;$/;"	m	struct:Context
+cs	include/arch/x86-qemu.h	/^           eip, cs, eflags, esp, ss3;$/;"	m	struct:Context
+cs	include/arch/x86_64-qemu.h	/^           rip, cs, rflags,$/;"	m	struct:Context
+cs	src/x86/qemu/x86-qemu.h	/^  uint32_t eip, cs, eflags, esp, ss;$/;"	m	struct:trap_frame
+cs	src/x86/qemu/x86-qemu.h	/^  uint64_t rip, cs, rflags, rsp, ss;$/;"	m	struct:trap_frame
+cs	src/x86/x86.h	/^  uint32_t cs        : 16; \/\/ Code segment selector$/;"	m	struct:__anon5
+cs	src/x86/x86.h	/^  uint32_t cs        : 16;$/;"	m	struct:__anon6
+cur_pdir	src/mips/nemu/vme.c	/^static PTE *cur_pdir = NULL;$/;"	v	file:
+data	src/x86/qemu/boot/genboot.py	/^    data = subprocess.run($/;"	v
+data	src/x86/qemu/ioe.c	/^    uint32_t reg, pad[3], data;$/;"	m	struct:IOAPIC	file:
+db	src/x86/x86.h	/^  uint32_t db         :  1; \/\/ 32-bit segment$/;"	m	struct:__anon4
+disable_irqsave	src/riscv/spike/atomic.h	10;"	d
+disk_blkio	src/x86/qemu/ioe.c	/^static void disk_blkio(AM_DISK_BLKIO_T *bio) {$/;"	f	file:
+disk_config	src/x86/qemu/ioe.c	/^static void disk_config(AM_DISK_CONFIG_T *cfg) {$/;"	f	file:
+disk_size	src/native/ioe/disk.c	/^static int disk_size = 0;$/;"	v	file:
+disk_status	src/x86/qemu/ioe.c	/^static void disk_status(AM_DISK_STATUS_T *status) {$/;"	f	file:
+display	src/x86/qemu/ioe.c	/^static struct gpu_canvas display;$/;"	v	typeref:struct:gpu_canvas	file:
+do_io	src/native/ioe.c	/^static void do_io(int reg, void *buf) {$/;"	f	file:
+do_tohost_fromhost	src/riscv/spike/htif.c	/^static void do_tohost_fromhost(uintptr_t dev, uintptr_t cmd, uintptr_t data)$/;"	f	file:
+dpl	src/x86/x86.h	/^  uint32_t dpl        :  2; \/\/ Descriptor Privilege Level$/;"	m	struct:__anon4
+dpl	src/x86/x86.h	/^  uint32_t dpl       :  2; \/\/ Descriptor(meaning new) privilege level$/;"	m	struct:__anon5
+dpl	src/x86/x86.h	/^  uint32_t dpl       :  2;$/;"	m	struct:__anon6
+ds	include/arch/x86-qemu.h	/^  uint32_t ds, eax, ebx, ecx, edx,$/;"	m	struct:Context
+eax	include/arch/x86-nemu.h	/^  uintptr_t esi, ebx, eax, eip, edx, eflags, ecx, cs, esp, edi, ebp;$/;"	m	struct:Context
+eax	include/arch/x86-qemu.h	/^  uint32_t ds, eax, ebx, ecx, edx,$/;"	m	struct:Context
+ebp	include/arch/x86-nemu.h	/^  uintptr_t esi, ebx, eax, eip, edx, eflags, ecx, cs, esp, edi, ebp;$/;"	m	struct:Context
+ebp	include/arch/x86-qemu.h	/^           esp0, esi, edi, ebp,$/;"	m	struct:Context
+ebx	include/arch/x86-nemu.h	/^  uintptr_t esi, ebx, eax, eip, edx, eflags, ecx, cs, esp, edi, ebp;$/;"	m	struct:Context
+ebx	include/arch/x86-qemu.h	/^  uint32_t ds, eax, ebx, ecx, edx,$/;"	m	struct:Context
+ecx	include/arch/x86-nemu.h	/^  uintptr_t esi, ebx, eax, eip, edx, eflags, ecx, cs, esp, edi, ebp;$/;"	m	struct:Context
+ecx	include/arch/x86-qemu.h	/^  uint32_t ds, eax, ebx, ecx, edx,$/;"	m	struct:Context
+edi	include/arch/x86-nemu.h	/^  uintptr_t esi, ebx, eax, eip, edx, eflags, ecx, cs, esp, edi, ebp;$/;"	m	struct:Context
+edi	include/arch/x86-qemu.h	/^           esp0, esi, edi, ebp,$/;"	m	struct:Context
+edx	include/arch/x86-nemu.h	/^  uintptr_t esi, ebx, eax, eip, edx, eflags, ecx, cs, esp, edi, ebp;$/;"	m	struct:Context
+edx	include/arch/x86-qemu.h	/^  uint32_t ds, eax, ebx, ecx, edx,$/;"	m	struct:Context
+eflags	include/arch/x86-nemu.h	/^  uintptr_t esi, ebx, eax, eip, edx, eflags, ecx, cs, esp, edi, ebp;$/;"	m	struct:Context
+eflags	include/arch/x86-qemu.h	/^           eip, cs, eflags, esp, ss3;$/;"	m	struct:Context
+eflags	src/x86/qemu/x86-qemu.h	/^  uint32_t eip, cs, eflags, esp, ss;$/;"	m	struct:trap_frame
+eip	include/arch/x86-nemu.h	/^  uintptr_t esi, ebx, eax, eip, edx, eflags, ecx, cs, esp, edi, ebp;$/;"	m	struct:Context
+eip	include/arch/x86-qemu.h	/^           eip, cs, eflags, esp, ss3;$/;"	m	struct:Context
+eip	src/x86/qemu/x86-qemu.h	/^  uint32_t eip, cs, eflags, esp, ss;$/;"	m	struct:trap_frame
+enable_irqrestore	src/riscv/spike/atomic.h	11;"	d
+end	include/am.h	/^  void *start, *end;$/;"	m	struct:__anon12
+entry	src/x86/x86.h	/^  uint16_t entry;         \/\/ entry count$/;"	m	struct:__anon9
+epc	include/arch/mips32-nemu.h	/^  uintptr_t hi, gpr[32], epc, cause, lo, status;$/;"	m	struct:Context
+errcode	src/x86/qemu/x86-qemu.h	/^  uint32_t irq, errcode;$/;"	m	struct:trap_frame
+errcode	src/x86/qemu/x86-qemu.h	/^  uint64_t irq, errcode;$/;"	m	struct:trap_frame
+esi	include/arch/x86-nemu.h	/^  uintptr_t esi, ebx, eax, eip, edx, eflags, ecx, cs, esp, edi, ebp;$/;"	m	struct:Context
+esi	include/arch/x86-qemu.h	/^           esp0, esi, edi, ebp,$/;"	m	struct:Context
+esp	include/arch/x86-nemu.h	/^  uintptr_t esi, ebx, eax, eip, edx, eflags, ecx, cs, esp, edi, ebp;$/;"	m	struct:Context
+esp	include/arch/x86-qemu.h	/^           eip, cs, eflags, esp, ss3;$/;"	m	struct:Context
+esp	src/x86/qemu/x86-qemu.h	/^  uint32_t eip, cs, eflags, esp, ss;$/;"	m	struct:trap_frame
+esp0	include/arch/x86-qemu.h	/^           esp0, esi, edi, ebp,$/;"	m	struct:Context
+esp0	src/x86/x86.h	/^  uint32_t esp0;     \/\/ Stack pointers and segment selectors$/;"	m	struct:__anon7
+estimate_freq	src/x86/qemu/ioe.c	/^static uint32_t estimate_freq() {$/;"	f	file:
+ev	src/native/platform.h	/^  Event ev; \/\/ similar to cause register in mips\/riscv$/;"	m	struct:__anon1
+event	include/am.h	/^  } event;$/;"	m	struct:__anon13	typeref:enum:__anon13::__anon14
+event_thread	src/native/ioe/input.c	/^static int event_thread(void *args) {$/;"	f	file:
+f	src/x86/qemu/boot/genboot.py	/^f = pathlib.Path(sys.argv[1])$/;"	v
+fail	src/native/ioe.c	/^static void fail(void *buf) { panic("access nonexist register"); }$/;"	f	file:
+fail	src/platform/dummy/ioe.c	/^static void fail(void *buf) { panic("access nonexist register"); }$/;"	f	file:
+fail	src/platform/nemu/ioe/ioe.c	/^static void fail(void *buf) { panic("access nonexist register"); }$/;"	f	file:
+fail	src/riscv/mycpu/ioe.c	/^static void fail(void *buf) { panic("access nonexist register"); }$/;"	f	file:
+fail	src/riscv/spike/ioe.c	/^static void fail(void *buf) { panic("access nonexist register"); }$/;"	f	file:
+fail	src/x86/qemu/ioe.c	/^static void fail(void *buf) { panic("access nonexist register"); }$/;"	f	file:
+fb	src/x86/qemu/ioe.c	/^static struct pixel *fb;$/;"	v	typeref:struct:pixel	file:
+fp	src/native/ioe/disk.c	/^static FILE *fp = NULL;$/;"	v	file:
+framebuffer	src/x86/qemu/ioe.c	/^  uint32_t framebuffer;$/;"	m	struct:vbe_info	file:
+freq_mhz	src/x86/qemu/ioe.c	/^static uint32_t freq_mhz = 2000;$/;"	v	file:
+fromhost	src/riscv/spike/htif.c	/^volatile uint64_t fromhost __attribute__((section(".htif")));$/;"	v
+g	src/x86/qemu/ioe.c	/^  uint8_t b, g, r;$/;"	m	struct:pixel	file:
+g	src/x86/x86.h	/^  uint32_t g          :  1; \/\/ Granularity: limit scaled by 4K when set$/;"	m	struct:__anon4
+gdt	src/x86/qemu/boot/start.S	/^gdt:$/;"	l
+gdt	src/x86/qemu/x86-qemu.h	/^  SegDesc gdt[NR_SEG + 1];$/;"	m	struct:cpu_local
+gdt	src/x86/qemu/x86-qemu.h	/^  SegDesc gdt[NR_SEG];$/;"	m	struct:cpu_local
+gdt64_begin	src/x86/qemu/start64.S	/^gdt64_begin:$/;"	l
+gdt64_end	src/x86/qemu/start64.S	/^gdt64_end:$/;"	l
+gdt_ptr	src/x86/qemu/start64.S	/^gdt_ptr:$/;"	l
+gdtdesc	src/x86/qemu/boot/start.S	/^gdtdesc:$/;"	l
+get_CU0	src/mips/nemu/cte.c	/^static inline bool get_CU0(Context *c) { return (c->status >> 28) & 0x1; }$/;"	f	file:
+get_cr0	src/x86/x86.h	/^static inline uintptr_t get_cr0(void) {$/;"	f
+get_cr2	src/x86/x86.h	/^static inline uintptr_t get_cr2() {$/;"	f
+get_cr3	src/x86/x86.h	/^static inline uintptr_t get_cr3() {$/;"	f
+get_efl	src/x86/x86.h	/^static inline uint32_t get_efl() {$/;"	f
+get_satp	src/riscv/nemu/vme.c	/^static inline uintptr_t get_satp() {$/;"	f	file:
+gpr	include/arch/mips32-nemu.h	/^  uintptr_t hi, gpr[32], epc, cause, lo, status;$/;"	m	struct:Context
+gpr	include/arch/riscv32-nemu.h	/^  uintptr_t mepc, mcause, gpr[32], mstatus;$/;"	m	struct:Context
+gpr	include/arch/riscv64-mycpu.h	/^  uintptr_t mepc, mcause, gpr[32], mstatus;$/;"	m	struct:Context
+gpr	include/arch/riscv64-nemu.h	/^  uintptr_t mepc, mcause, gpr[32], mstatus;$/;"	m	struct:Context
+gpr	include/arch/spike.h	/^  uintptr_t gpr[1];$/;"	m	struct:Context
+gpu_canvas	include/amdev.h	/^struct gpu_canvas {$/;"	s
+gpu_config	src/x86/qemu/ioe.c	/^static void gpu_config(AM_GPU_CONFIG_T *cfg) {$/;"	f	file:
+gpu_fbdraw	src/x86/qemu/ioe.c	/^static void gpu_fbdraw(AM_GPU_FBDRAW_T *draw) {$/;"	f	file:
+gpu_init	src/x86/qemu/ioe.c	/^static void gpu_init() {$/;"	f	file:
+gpu_memcpy	src/x86/qemu/ioe.c	/^static void gpu_memcpy(AM_GPU_MEMCPY_T *params) {$/;"	f	file:
+gpu_render	src/x86/qemu/ioe.c	/^static void gpu_render(AM_GPU_RENDER_T *ren) {$/;"	f	file:
+gpu_status	src/x86/qemu/ioe.c	/^static void gpu_status(AM_GPU_STATUS_T *stat) {$/;"	f	file:
+gpu_texturedesc	include/amdev.h	/^struct gpu_texturedesc {$/;"	s
+gpuptr_t	include/amdev.h	/^typedef uint32_t gpuptr_t;$/;"	t
+h	include/amdev.h	/^  uint16_t type, w, h, x1, y1, w1, h1;$/;"	m	struct:gpu_canvas
+h	include/amdev.h	/^  uint16_t w, h;$/;"	m	struct:gpu_texturedesc
+h1	include/amdev.h	/^  uint16_t type, w, h, x1, y1, w1, h1;$/;"	m	struct:gpu_canvas
+halt	src/native/trm.c	/^void halt(int code) {$/;"	f
+halt	src/platform/dummy/trm.c	/^void halt(int code) {$/;"	f
+halt	src/platform/nemu/trm.c	/^void halt(int code) {$/;"	f
+halt	src/riscv/mycpu/trm.c	/^void halt(int code) {$/;"	f
+halt	src/riscv/spike/trm.c	/^void halt(int code) {$/;"	f
+halt	src/x86/qemu/trm.c	/^void halt(int code) {$/;"	f
+handler	src/mips/nemu/cte.c	/^bool cte_init(Context*(*handler)(Event, Context*)) {$/;"	f
+handler	src/native/cte.c	/^bool cte_init(Context*(*handler)(Event, Context*)) {$/;"	f
+handler	src/platform/dummy/cte.c	/^bool cte_init(Context*(*handler)(Event, Context*)) {$/;"	f
+handler	src/riscv/mycpu/cte.c	/^bool cte_init(Context*(*handler)(Event, Context*)) {$/;"	f
+handler	src/riscv/nemu/cte.c	/^bool cte_init(Context*(*handler)(Event, Context*)) {$/;"	f
+handler	src/x86/nemu/cte.c	/^bool cte_init(Context*(*handler)(Event, Context*)) {$/;"	f
+handler	src/x86/qemu/cte.c	/^bool cte_init(Context *(*handler)(Event, Context *)) {$/;"	f
+handler_t	src/native/ioe.c	/^typedef void (*handler_t)(void *buf);$/;"	t	file:
+handler_t	src/platform/nemu/ioe/ioe.c	/^typedef void (*handler_t)(void *buf);$/;"	t	file:
+handler_t	src/riscv/mycpu/ioe.c	/^typedef void (*handler_t)(void *buf);$/;"	t	file:
+handler_t	src/riscv/spike/ioe.c	/^typedef void (*handler_t)(void *buf);$/;"	t	file:
+handler_t	src/x86/qemu/ioe.c	/^typedef void (*handler_t)(void *buf);$/;"	t	file:
+hash	src/native/vme.c	/^  struct hsearch_data hash;$/;"	m	struct:VMHead	typeref:struct:VMHead::hsearch_data	file:
+head	src/native/vme.c	/^  PageMap *head;$/;"	m	struct:VMHead	file:
+heap	src/native/trm.c	/^Area heap = {};$/;"	v
+heap	src/platform/dummy/trm.c	/^Area heap = RANGE(NULL, NULL);$/;"	v
+heap	src/platform/nemu/trm.c	/^Area heap = RANGE(&_heap_start, PMEM_END);$/;"	v
+heap	src/riscv/mycpu/trm.c	/^Area heap = RANGE(&_heap_start, PMEM_END);$/;"	v
+heap	src/riscv/spike/trm.c	/^Area heap = RANGE(&_heap_start, PMEM_END);$/;"	v
+heap	src/x86/qemu/trm.c	/^Area heap = {};$/;"	v
+height	src/x86/qemu/ioe.c	/^  uint16_t height;$/;"	m	struct:vbe_info	file:
+hi	include/arch/mips32-nemu.h	/^  uintptr_t hi, gpr[32], epc, cause, lo, status;$/;"	m	struct:Context
+hlt	src/x86/x86.h	/^static inline void hlt() {$/;"	f
+htif_console_buf	src/riscv/spike/htif.c	/^volatile int htif_console_buf;$/;"	v
+htif_console_getchar	src/riscv/spike/htif.c	/^int htif_console_getchar()$/;"	f
+htif_console_putchar	src/riscv/spike/htif.c	/^void htif_console_putchar(uint8_t ch)$/;"	f
+htif_lock	src/riscv/spike/htif.c	/^static spinlock_t htif_lock = SPINLOCK_INIT;$/;"	v	file:
+htif_poweroff	src/riscv/spike/htif.c	/^void htif_poweroff()$/;"	f
+htif_syscall	src/riscv/spike/htif.c	/^void htif_syscall(uintptr_t arg)$/;"	f
+idt	src/x86/qemu/cte.c	/^static GateDesc32 idt[NR_IRQ];$/;"	v	file:
+idt	src/x86/qemu/cte.c	/^static GateDesc64 idt[NR_IRQ];$/;"	v	file:
+ienabled	src/mips/nemu/cte.c	/^bool ienabled() {$/;"	f
+ienabled	src/native/cte.c	/^bool ienabled() {$/;"	f
+ienabled	src/platform/dummy/cte.c	/^bool ienabled() {$/;"	f
+ienabled	src/riscv/mycpu/cte.c	/^bool ienabled() {$/;"	f
+ienabled	src/riscv/nemu/cte.c	/^bool ienabled() {$/;"	f
+ienabled	src/x86/nemu/cte.c	/^bool ienabled() {$/;"	f
+ienabled	src/x86/qemu/cte.c	/^bool ienabled() {$/;"	f
+ignore	src/x86/qemu/ioe.c	/^  uint8_t  ignore[18];$/;"	m	struct:vbe_info	file:
+ignore1	src/x86/qemu/ioe.c	/^  uint8_t  ignore1[18];$/;"	m	struct:vbe_info	file:
+imcrp	src/x86/x86.h	/^  uint8_t  imcrp;$/;"	m	struct:__anon10
+inb	src/mips/mips32.h	/^static inline uint8_t  inb(uintptr_t addr) { return *(volatile uint8_t  *)addr; }$/;"	f
+inb	src/riscv/riscv.h	/^static inline uint8_t  inb(uintptr_t addr) { return *(volatile uint8_t  *)addr; }$/;"	f
+inb	src/x86/x86.h	/^static inline uint8_t inb(int port) {$/;"	f
+indexof	src/x86/qemu/vme.c	/^static int indexof(uintptr_t addr, const struct ptinfo *info) {$/;"	f	file:
+init_platform	src/native/platform.c	/^static void init_platform() {$/;"	f	file:
+inl	src/mips/mips32.h	/^static inline uint32_t inl(uintptr_t addr) { return *(volatile uint32_t *)addr; }$/;"	f
+inl	src/riscv/riscv.h	/^static inline uint32_t inl(uintptr_t addr) { return *(volatile uint32_t *)addr; }$/;"	f
+inl	src/x86/x86.h	/^static inline uint32_t inl(int port) {$/;"	f
+input_config	src/x86/qemu/ioe.c	/^static void input_config(AM_INPUT_CONFIG_T *cfg) {$/;"	f	file:
+input_keybrd	src/x86/qemu/ioe.c	/^static void input_keybrd(AM_INPUT_KEYBRD_T *ev) {$/;"	f	file:
+install_signal_handler	src/native/cte.c	/^static void install_signal_handler() {$/;"	f	file:
+interrupt	src/x86/x86.h	336;"	d
+inw	src/mips/mips32.h	/^static inline uint16_t inw(uintptr_t addr) { return *(volatile uint16_t *)addr; }$/;"	f
+inw	src/riscv/riscv.h	/^static inline uint16_t inw(uintptr_t addr) { return *(volatile uint16_t *)addr; }$/;"	f
+inw	src/x86/x86.h	/^static inline uint16_t inw(int port) {$/;"	f
+ioapic	src/x86/qemu/ioe.c	/^static volatile IOAPIC *ioapic;$/;"	v	file:
+ioapicread	src/x86/qemu/ioe.c	/^static unsigned int ioapicread(int reg) {$/;"	f	file:
+ioapicwrite	src/x86/qemu/ioe.c	/^static void ioapicwrite(int reg, unsigned int data) {$/;"	f	file:
+ioe_init	src/native/ioe.c	/^bool ioe_init() {$/;"	f
+ioe_init	src/platform/dummy/ioe.c	/^bool ioe_init() {$/;"	f
+ioe_init	src/platform/nemu/ioe/ioe.c	/^bool ioe_init() {$/;"	f
+ioe_init	src/riscv/mycpu/ioe.c	/^bool ioe_init() {$/;"	f
+ioe_init	src/riscv/spike/ioe.c	/^bool ioe_init() {$/;"	f
+ioe_init	src/x86/qemu/ioe.c	/^bool ioe_init() {$/;"	f
+ioe_init_done	src/native/ioe.c	/^static bool ioe_init_done = false;$/;"	v	file:
+ioe_read	src/native/ioe.c	/^void ioe_read (int reg, void *buf) { do_io(reg, buf); }$/;"	f
+ioe_read	src/platform/dummy/ioe.c	/^void ioe_read (int reg, void *buf) { fail(buf); }$/;"	f
+ioe_read	src/platform/nemu/ioe/ioe.c	/^void ioe_read (int reg, void *buf) { ((handler_t)lut[reg])(buf); }$/;"	f
+ioe_read	src/riscv/mycpu/ioe.c	/^void ioe_read (int reg, void *buf) { ((handler_t)lut[reg])(buf); }$/;"	f
+ioe_read	src/riscv/spike/ioe.c	/^void ioe_read (int reg, void *buf) { ((handler_t)lut[reg])(buf); }$/;"	f
+ioe_read	src/x86/qemu/ioe.c	/^void ioe_read (int reg, void *buf) { ((handler_t)lut[reg])(buf); }$/;"	f
+ioe_write	src/native/ioe.c	/^void ioe_write(int reg, void *buf) { do_io(reg, buf); }$/;"	f
+ioe_write	src/platform/dummy/ioe.c	/^void ioe_write(int reg, void *buf) { fail(buf); }$/;"	f
+ioe_write	src/platform/nemu/ioe/ioe.c	/^void ioe_write(int reg, void *buf) { ((handler_t)lut[reg])(buf); }$/;"	f
+ioe_write	src/riscv/mycpu/ioe.c	/^void ioe_write(int reg, void *buf) { ((handler_t)lut[reg])(buf); }$/;"	f
+ioe_write	src/riscv/spike/ioe.c	/^void ioe_write(int reg, void *buf) { ((handler_t)lut[reg])(buf); }$/;"	f
+ioe_write	src/x86/qemu/ioe.c	/^void ioe_write(int reg, void *buf) { ((handler_t)lut[reg])(buf); }$/;"	f
+iret	src/native/cte.c	/^static void iret(ucontext_t *uc) {$/;"	f	file:
+irq	include/arch/x86-nemu.h	/^  int irq;$/;"	m	struct:Context
+irq	src/x86/qemu/x86-qemu.h	/^  uint32_t irq, errcode;$/;"	m	struct:trap_frame
+irq	src/x86/qemu/x86-qemu.h	/^  uint64_t irq, errcode;$/;"	m	struct:trap_frame
+irq_handle	src/native/cte.c	/^static void irq_handle(Context *c) {$/;"	f	file:
+is_ap	src/x86/x86.h	/^  int32_t is_ap;$/;"	m	struct:__anon11
+is_mapped	src/native/vme.c	/^  int is_mapped;$/;"	m	struct:PageMap	file:
+iset	src/mips/nemu/cte.c	/^void iset(bool enable) {$/;"	f
+iset	src/native/cte.c	/^void iset(bool enable) {$/;"	f
+iset	src/platform/dummy/cte.c	/^void iset(bool enable) {$/;"	f
+iset	src/riscv/mycpu/cte.c	/^void iset(bool enable) {$/;"	f
+iset	src/riscv/nemu/cte.c	/^void iset(bool enable) {$/;"	f
+iset	src/x86/nemu/cte.c	/^void iset(bool enable) {$/;"	f
+iset	src/x86/qemu/cte.c	/^void iset(bool enable) {$/;"	f
+isv	src/x86/x86.h	/^  uint32_t isv       :  3;$/;"	m	struct:__anon6
+jmp_code	src/x86/x86.h	/^  uint32_t jmp_code;$/;"	m	struct:__anon11
+kas	src/riscv/nemu/vme.c	/^static AddrSpace kas = {};$/;"	v	file:
+kas	src/x86/nemu/vme.c	/^static AddrSpace kas = {};$/;"	v	file:
+kcontext	src/mips/nemu/cte.c	/^Context *kcontext(Area kstack, void (*entry)(void *), void *arg) {$/;"	f
+kcontext	src/native/cte.c	/^Context* kcontext(Area kstack, void (*entry)(void *), void *arg) {$/;"	f
+kcontext	src/platform/dummy/cte.c	/^Context *kcontext(Area kstack, void (*entry)(void *), void *arg) {$/;"	f
+kcontext	src/riscv/mycpu/cte.c	/^Context *kcontext(Area kstack, void (*entry)(void *), void *arg) {$/;"	f
+kcontext	src/riscv/nemu/cte.c	/^Context *kcontext(Area kstack, void (*entry)(void *), void *arg) {$/;"	f
+kcontext	src/x86/nemu/cte.c	/^Context* kcontext(Area kstack, void (*entry)(void *), void *arg) {$/;"	f
+kcontext	src/x86/qemu/cte.c	/^Context* kcontext(Area kstack, void (*entry)(void *), void *arg) {$/;"	f
+kernel	src/x86/qemu/x86-qemu.h	/^  int kernel;$/;"	m	struct:vm_area
+kernel_stack	src/x86/qemu/x86-qemu.h	/^struct kernel_stack {$/;"	s
+key	src/native/vme.c	/^  char key[32];  \/\/ used for hsearch_r()$/;"	m	struct:PageMap	file:
+key_f	src/native/ioe/input.c	/^static int key_f = 0, key_r = 0;$/;"	v	file:
+key_queue	src/native/ioe/input.c	/^static int key_queue[KEY_QUEUE_LEN] = {};$/;"	v	file:
+key_queue_lock	src/native/ioe/input.c	/^static SDL_mutex *key_queue_lock = NULL;$/;"	v	file:
+key_r	src/native/ioe/input.c	/^static int key_f = 0, key_r = 0;$/;"	v	file:
+keylut	src/x86/qemu/ioe.c	/^static int keylut[128] = {$/;"	v	file:
+keymap	src/native/ioe/input.c	/^static int keymap[256] = {$/;"	v	file:
+kpt	src/x86/qemu/vme.c	/^static uintptr_t *kpt;$/;"	v	file:
+ksp	include/arch/native.h	/^  uintptr_t ksp;$/;"	m	struct:Context
+ksp	src/native/platform.h	/^  uintptr_t ksp;$/;"	m	struct:__anon1
+l	src/x86/x86.h	/^  uint32_t l          :  1; \/\/ 64-bit segment$/;"	m	struct:__anon4
+lapicaddr	src/x86/x86.h	/^  uint32_t lapicaddr;     \/\/ address of local APIC$/;"	m	struct:__anon9
+lapicw	src/x86/qemu/ioe.c	/^static void lapicw(int index, int value) {$/;"	f	file:
+length	src/x86/x86.h	/^  uint16_t length;        \/\/ total table length$/;"	m	struct:__anon9
+length	src/x86/x86.h	/^  uint8_t  length;   \/\/ 1$/;"	m	struct:__anon10
+lim_15_0	src/x86/x86.h	/^  uint32_t lim_15_0   : 16; \/\/ Low bits of segment limit$/;"	m	struct:__anon4
+lim_19_16	src/x86/x86.h	/^  uint32_t lim_19_16  :  4; \/\/ High bits of segment limit$/;"	m	struct:__anon4
+link	src/x86/x86.h	/^  uint32_t link;     \/\/ Unused$/;"	m	struct:__anon7
+list_foreach	src/native/vme.c	22;"	d	file:
+lo	include/arch/mips32-nemu.h	/^  uintptr_t hi, gpr[32], epc, cause, lo, status;$/;"	m	struct:Context
+load_elf32	src/x86/qemu/boot/main.c	/^static void load_elf32(Elf32_Ehdr *elf) {$/;"	f	file:
+load_elf64	src/x86/qemu/boot/main.c	/^static void load_elf64(Elf64_Ehdr *elf) {$/;"	f	file:
+load_kernel	src/x86/qemu/boot/main.c	/^void load_kernel(void) {$/;"	f
+load_program	src/x86/qemu/boot/main.c	/^static void load_program(uint32_t filesz, uint32_t memsz, uint32_t paddr, uint32_t offset) {$/;"	f	file:
+lock	src/riscv/spike/atomic.h	/^typedef struct { int lock; } spinlock_t;$/;"	m	struct:__anon2
+lut	src/native/ioe.c	/^static void *lut[128] = {$/;"	v	file:
+lut	src/platform/nemu/ioe/ioe.c	/^static void *lut[128] = {$/;"	v	file:
+lut	src/riscv/mycpu/ioe.c	/^static void *lut[128] = {$/;"	v	file:
+lut	src/riscv/spike/ioe.c	/^static void *lut[128] = {$/;"	v	file:
+lut	src/x86/qemu/ioe.c	/^static void *lut[128] = {$/;"	v	file:
+magic	src/x86/x86.h	/^  int      magic;$/;"	m	struct:__anon10
+mainargs	src/platform/nemu/trm.c	/^static const char mainargs[] = MAINARGS;$/;"	v	file:
+mainargs	src/riscv/mycpu/trm.c	/^static const char mainargs[] = MAINARGS;$/;"	v	file:
+mainargs	src/riscv/spike/trm.c	/^static const char mainargs[] = MAINARGS;$/;"	v	file:
+map	src/mips/nemu/vme.c	/^void map(AddrSpace *as, void *va, void *pa, int prot) {$/;"	f
+map	src/native/vme.c	/^void map(AddrSpace *as, void *va, void *pa, int prot) {$/;"	f
+map	src/platform/dummy/vme.c	/^void map(AddrSpace *as, void *va, void *pa, int prot) {$/;"	f
+map	src/riscv/mycpu/vme.c	/^void map(AddrSpace *as, void *va, void *pa, int prot) {$/;"	f
+map	src/riscv/nemu/vme.c	/^void map(AddrSpace *as, void *va, void *pa, int prot) {$/;"	f
+map	src/x86/nemu/vme.c	/^void map(AddrSpace *as, void *va, void *pa, int prot) {$/;"	f
+map	src/x86/qemu/vme.c	/^void map(AddrSpace *as, void *va, void *pa, int prot) {$/;"	f
+mask	src/x86/qemu/x86-qemu.h	/^    uintptr_t mask;$/;"	m	struct:mmu_config::ptinfo
+mb	src/riscv/spike/atomic.h	16;"	d
+mcause	include/arch/riscv32-nemu.h	/^  uintptr_t mepc, mcause, gpr[32], mstatus;$/;"	m	struct:Context
+mcause	include/arch/riscv64-mycpu.h	/^  uintptr_t mepc, mcause, gpr[32], mstatus;$/;"	m	struct:Context
+mcause	include/arch/riscv64-nemu.h	/^  uintptr_t mepc, mcause, gpr[32], mstatus;$/;"	m	struct:Context
+memcpy_libc	src/native/platform.c	/^static void *(*memcpy_libc)(void *, const void *, size_t) = NULL;$/;"	v	file:
+mepc	include/arch/riscv32-nemu.h	/^  uintptr_t mepc, mcause, gpr[32], mstatus;$/;"	m	struct:Context
+mepc	include/arch/riscv64-mycpu.h	/^  uintptr_t mepc, mcause, gpr[32], mstatus;$/;"	m	struct:Context
+mepc	include/arch/riscv64-nemu.h	/^  uintptr_t mepc, mcause, gpr[32], mstatus;$/;"	m	struct:Context
+mmu	src/x86/qemu/vme.c	/^const struct mmu_config mmu = {$/;"	v	typeref:struct:mmu_config
+mmu_config	src/x86/qemu/x86-qemu.h	/^struct mmu_config {$/;"	s
+mpe_init	src/native/mpe.c	/^bool mpe_init(void (*entry)()) {$/;"	f
+mpe_init	src/platform/dummy/mpe.c	/^bool mpe_init(void (*entry)()) {$/;"	f
+mpe_init	src/platform/nemu/mpe.c	/^bool mpe_init(void (*entry)()) {$/;"	f
+mpe_init	src/riscv/mycpu/mpe.c	/^bool mpe_init(void (*entry)()) {$/;"	f
+mpe_init	src/x86/qemu/mpe.c	/^bool mpe_init(void (*entry)()) {$/;"	f
+msg	include/am.h	/^  const char *msg;$/;"	m	struct:__anon13
+mstatus	include/arch/riscv32-nemu.h	/^  uintptr_t mepc, mcause, gpr[32], mstatus;$/;"	m	struct:Context
+mstatus	include/arch/riscv64-mycpu.h	/^  uintptr_t mepc, mcause, gpr[32], mstatus;$/;"	m	struct:Context
+mstatus	include/arch/riscv64-nemu.h	/^  uintptr_t mepc, mcause, gpr[32], mstatus;$/;"	m	struct:Context
+name	src/x86/qemu/x86-qemu.h	/^    const char *name;$/;"	m	struct:mmu_config::ptinfo
+nemu_trap	src/platform/nemu/include/nemu.h	10;"	d
+nemu_trap	src/platform/nemu/include/nemu.h	12;"	d
+nemu_trap	src/platform/nemu/include/nemu.h	14;"	d
+net_config	src/x86/qemu/ioe.c	/^static void net_config(AM_NET_CONFIG_T *cfg) { cfg->present = false; }$/;"	f	file:
+next	src/native/vme.c	/^  struct PageMap *next;$/;"	m	struct:PageMap	typeref:struct:PageMap::PageMap	file:
+nr_page	src/native/vme.c	/^  int nr_page;$/;"	m	struct:VMHead	file:
+objcopy	src/x86/qemu/boot/genboot.py	/^    objcopy = os.getenv('CROSS_COMPILE', '') + 'objcopy'$/;"	v
+oemlength	src/x86/x86.h	/^  uint16_t oemlength;     \/\/ OEM table length$/;"	m	struct:__anon9
+oemtable	src/x86/x86.h	/^  uint32_t oemtable;      \/\/ OEM table pointer$/;"	m	struct:__anon9
+off_15_0	src/x86/x86.h	/^  uint32_t off_15_0  : 16; \/\/ Low 16 bits of offset in segment$/;"	m	struct:__anon5
+off_15_0	src/x86/x86.h	/^  uint32_t off_15_0  : 16;$/;"	m	struct:__anon6
+off_31_16	src/x86/x86.h	/^  uint32_t off_31_16 : 16; \/\/ High bits of offset in segment$/;"	m	struct:__anon5
+off_31_16	src/x86/x86.h	/^  uint32_t off_31_16 : 16;$/;"	m	struct:__anon6
+off_63_32	src/x86/x86.h	/^  uint32_t off_63_32 : 32;$/;"	m	struct:__anon6
+othercpu_entry	src/x86/qemu/mpe.c	/^static void othercpu_entry() {$/;"	f	file:
+outb	src/mips/mips32.h	/^static inline void outb(uintptr_t addr, uint8_t  data) { *(volatile uint8_t  *)addr = data; }$/;"	f
+outb	src/riscv/riscv.h	/^static inline void outb(uintptr_t addr, uint8_t  data) { *(volatile uint8_t  *)addr = data; }$/;"	f
+outb	src/x86/x86.h	/^static inline void outb(int port, uint8_t data) {$/;"	f
+outl	src/mips/mips32.h	/^static inline void outl(uintptr_t addr, uint32_t data) { *(volatile uint32_t *)addr = data; }$/;"	f
+outl	src/riscv/riscv.h	/^static inline void outl(uintptr_t addr, uint32_t data) { *(volatile uint32_t *)addr = data; }$/;"	f
+outl	src/x86/x86.h	/^static inline void outl(int port, uint32_t data) {$/;"	f
+outw	src/mips/mips32.h	/^static inline void outw(uintptr_t addr, uint16_t data) { *(volatile uint16_t *)addr = data; }$/;"	f
+outw	src/riscv/riscv.h	/^static inline void outw(uintptr_t addr, uint16_t data) { *(volatile uint16_t *)addr = data; }$/;"	f
+outw	src/x86/x86.h	/^static inline void outw(int port, uint16_t data) {$/;"	f
+p	src/x86/x86.h	/^  uint32_t p          :  1; \/\/ Present$/;"	m	struct:__anon4
+p	src/x86/x86.h	/^  uint32_t p         :  1; \/\/ Present$/;"	m	struct:__anon5
+p	src/x86/x86.h	/^  uint32_t p         :  1;$/;"	m	struct:__anon6
+pa	src/native/vme.c	/^  void *pa;$/;"	m	struct:PageMap	file:
+pad	src/x86/qemu/ioe.c	/^    uint32_t reg, pad[3], data;$/;"	m	struct:IOAPIC	file:
+padding	src/x86/x86.h	/^  uint32_t padding[19];$/;"	m	struct:__anon8
+padding	src/x86/x86.h	/^  uint32_t padding[23];$/;"	m	struct:__anon7
+pause	src/x86/x86.h	/^static inline void pause() {$/;"	f
+pdir	include/arch/mips32-nemu.h	/^  void *pdir;$/;"	m	struct:Context
+pdir	include/arch/riscv32-nemu.h	/^  void *pdir;$/;"	m	struct:Context
+pdir	include/arch/riscv64-nemu.h	/^  void *pdir;$/;"	m	struct:Context
+pgalloc	src/native/vme.c	/^static void* (*pgalloc)(int) = NULL;$/;"	v	file:
+pgalloc	src/x86/qemu/vme.c	/^static void *(*pgalloc)(int size);$/;"	v	file:
+pgalloc_usr	src/mips/nemu/vme.c	/^static void* (*pgalloc_usr)(int) = NULL;$/;"	v	file:
+pgalloc_usr	src/riscv/nemu/vme.c	/^static void* (*pgalloc_usr)(int) = NULL;$/;"	v	file:
+pgalloc_usr	src/x86/nemu/vme.c	/^static void* (*pgalloc_usr)(int) = NULL;$/;"	v	file:
+pgallocz	src/x86/qemu/vme.c	/^static void *pgallocz() {$/;"	f	file:
+pgfree	src/native/vme.c	/^static void (*pgfree)(void *) = NULL;$/;"	v	file:
+pgfree	src/x86/qemu/vme.c	/^static void (*pgfree)(void *);$/;"	v	file:
+pgfree_usr	src/mips/nemu/vme.c	/^static void (*pgfree_usr)(void*) = NULL;$/;"	v	file:
+pgfree_usr	src/riscv/nemu/vme.c	/^static void (*pgfree_usr)(void*) = NULL;$/;"	v	file:
+pgfree_usr	src/x86/nemu/vme.c	/^static void (*pgfree_usr)(void*) = NULL;$/;"	v	file:
+pgsize	include/am.h	/^  int pgsize;$/;"	m	struct:__anon15
+pgsize	src/x86/qemu/x86-qemu.h	/^  int ptlevels, pgsize;$/;"	m	struct:mmu_config
+pgtables	src/x86/qemu/x86-qemu.h	/^  } pgtables[];$/;"	m	struct:mmu_config	typeref:struct:mmu_config::ptinfo
+pixel	src/x86/qemu/ioe.c	/^struct pixel {$/;"	s	file:
+pixels	include/amdev.h	/^  gpuptr_t pixels;$/;"	m	struct:gpu_texturedesc
+pmem	src/native/platform.c	/^static void *pmem = NULL;$/;"	v	file:
+pmem_fd	src/native/platform.c	/^static int pmem_fd = 0;$/;"	v	file:
+product	src/x86/x86.h	/^  uint8_t  product[20];   \/\/ product id$/;"	m	struct:__anon9
+prot	src/native/vme.c	/^  int prot;$/;"	m	struct:PageMap	file:
+protect	src/mips/nemu/vme.c	/^void protect(AddrSpace *as) {$/;"	f
+protect	src/native/vme.c	/^void protect(AddrSpace *as) {$/;"	f
+protect	src/platform/dummy/vme.c	/^void protect(AddrSpace *as) {$/;"	f
+protect	src/riscv/mycpu/vme.c	/^void protect(AddrSpace *as) {$/;"	f
+protect	src/riscv/nemu/vme.c	/^void protect(AddrSpace *as) {$/;"	f
+protect	src/x86/nemu/vme.c	/^void protect(AddrSpace *as) {$/;"	f
+protect	src/x86/qemu/vme.c	/^void protect(AddrSpace *as) {$/;"	f
+ptinfo	src/x86/qemu/x86-qemu.h	/^  struct ptinfo {$/;"	s	struct:mmu_config
+ptlevels	src/x86/qemu/x86-qemu.h	/^  int ptlevels, pgsize;$/;"	m	struct:mmu_config
+ptr	include/am.h	/^  void *ptr;$/;"	m	struct:__anon15
+ptwalk	src/x86/qemu/vme.c	/^static uintptr_t *ptwalk(AddrSpace *as, uintptr_t addr, int flags) {$/;"	f	file:
+putch	src/native/trm.c	/^void putch(char ch) {$/;"	f
+putch	src/platform/dummy/trm.c	/^void putch(char ch) {$/;"	f
+putch	src/platform/nemu/trm.c	/^void putch(char ch) {$/;"	f
+putch	src/riscv/mycpu/trm.c	/^void putch(char ch) {$/;"	f
+putch	src/riscv/spike/trm.c	/^void putch(char ch) {$/;"	f
+putch	src/x86/qemu/trm.c	/^void putch(char ch) {$/;"	f
+r	src/x86/qemu/ioe.c	/^  uint8_t b, g, r;$/;"	m	struct:pixel	file:
+r10	include/arch/x86_64-qemu.h	/^           r8, r9, r10, r11,$/;"	m	struct:Context
+r11	include/arch/x86_64-qemu.h	/^           r8, r9, r10, r11,$/;"	m	struct:Context
+r12	include/arch/x86_64-qemu.h	/^           r12, r13, r14, r15,$/;"	m	struct:Context
+r13	include/arch/x86_64-qemu.h	/^           r12, r13, r14, r15,$/;"	m	struct:Context
+r14	include/arch/x86_64-qemu.h	/^           r12, r13, r14, r15,$/;"	m	struct:Context
+r15	include/arch/x86_64-qemu.h	/^           r12, r13, r14, r15,$/;"	m	struct:Context
+r8	include/arch/x86_64-qemu.h	/^           r8, r9, r10, r11,$/;"	m	struct:Context
+r9	include/arch/x86_64-qemu.h	/^           r8, r9, r10, r11,$/;"	m	struct:Context
+rax	include/arch/x86_64-qemu.h	/^  uint64_t rax, rbx, rcx, rdx,$/;"	m	struct:Context
+rbp	include/arch/x86_64-qemu.h	/^           rbp, rsi, rdi,$/;"	m	struct:Context
+rbx	include/arch/x86_64-qemu.h	/^  uint64_t rax, rbx, rcx, rdx,$/;"	m	struct:Context
+rcx	include/arch/x86_64-qemu.h	/^  uint64_t rax, rbx, rcx, rdx,$/;"	m	struct:Context
+rdi	include/arch/x86_64-qemu.h	/^           rbp, rsi, rdi,$/;"	m	struct:Context
+rdtsc	src/x86/x86.h	/^static inline uint64_t rdtsc() {$/;"	f
+rdx	include/arch/x86_64-qemu.h	/^  uint64_t rax, rbx, rcx, rdx,$/;"	m	struct:Context
+read_disk	src/x86/qemu/boot/main.c	/^static inline void read_disk(void *buf, int sect) {$/;"	f	file:
+read_rtc	src/x86/qemu/ioe.c	/^static inline int read_rtc(int reg) {$/;"	f	file:
+read_rtc_async	src/x86/qemu/ioe.c	/^static void read_rtc_async(AM_TIMER_RTC_T *rtc) {$/;"	f	file:
+read_time	src/riscv/spike/timer.c	/^static uint64_t read_time() {$/;"	f	file:
+redzone	include/arch/native.h	/^  uint8_t redzone[128];$/;"	m	struct:Context
+ref	include/am.h	/^  uintptr_t cause, ref;$/;"	m	struct:__anon13
+reg	src/x86/qemu/ioe.c	/^    uint32_t reg, pad[3], data;$/;"	m	struct:IOAPIC	file:
+render	src/x86/qemu/ioe.c	/^static struct pixel *render(struct gpu_canvas *cv, struct gpu_canvas *parent, struct pixel *px) {$/;"	f	file:
+reserved	src/x86/x86.h	/^  uint8_t  reserved;$/;"	m	struct:__anon9
+reserved	src/x86/x86.h	/^  uint8_t  reserved[3];$/;"	m	struct:__anon10
+rfd	src/native/ioe/audio.c	/^static int rfd = -1, wfd = -1;$/;"	v	file:
+rflags	include/arch/x86_64-qemu.h	/^           rip, cs, rflags,$/;"	m	struct:Context
+rflags	src/x86/qemu/x86-qemu.h	/^  uint64_t rip, cs, rflags, rsp, ss;$/;"	m	struct:trap_frame
+rip	include/arch/x86_64-qemu.h	/^           rip, cs, rflags,$/;"	m	struct:Context
+rip	src/x86/qemu/x86-qemu.h	/^  uint64_t rip, cs, rflags, rsp, ss;$/;"	m	struct:trap_frame
+rsi	include/arch/x86_64-qemu.h	/^           rbp, rsi, rdi,$/;"	m	struct:Context
+rsp	include/arch/x86_64-qemu.h	/^           rsp, ss, rsp0;$/;"	m	struct:Context
+rsp	src/x86/qemu/x86-qemu.h	/^  uint64_t rip, cs, rflags, rsp, ss;$/;"	m	struct:trap_frame
+rsp0	include/arch/x86_64-qemu.h	/^           rsp, ss, rsp0;$/;"	m	struct:Context
+rsp0	src/x86/x86.h	/^  uint64_t rsp0, rsp1, rsp2;$/;"	m	struct:__anon8
+rsp1	src/x86/x86.h	/^  uint64_t rsp0, rsp1, rsp2;$/;"	m	struct:__anon8
+rsp2	src/x86/x86.h	/^  uint64_t rsp0, rsp1, rsp2;$/;"	m	struct:__anon8
+rsv	src/x86/x86.h	/^  uint32_t rsv       : 32;$/;"	m	struct:__anon6
+rsv	src/x86/x86.h	/^  uint32_t rsv;$/;"	m	struct:__anon8
+rsv1	src/x86/x86.h	/^  uint32_t rsv1      :  3; \/\/ Reserved(should be zero I guess)$/;"	m	struct:__anon5
+s	src/x86/x86.h	/^  uint32_t s          :  1; \/\/ 0 = system, 1 = application$/;"	m	struct:__anon4
+s	src/x86/x86.h	/^  uint32_t s         :  1; \/\/ Must be 0 (system)$/;"	m	struct:__anon5
+save_context_handler	src/native/platform.c	/^static void save_context_handler(int sig, siginfo_t *info, void *ucontext) {$/;"	f	file:
+save_example_context	src/native/platform.c	/^static void save_example_context() {$/;"	f	file:
+saved_context	src/x86/qemu/x86-qemu.h	/^  Context saved_context;$/;"	m	struct:trap_frame
+segments	src/riscv/nemu/vme.c	/^static Area segments[] = {      \/\/ Kernel memory mappings$/;"	v	file:
+segments	src/x86/nemu/vme.c	/^static Area segments[] = {      \/\/ Kernel memory mappings$/;"	v	file:
+set_cr0	src/x86/x86.h	/^static inline void set_cr0(uintptr_t cr0) {$/;"	f
+set_cr3	src/x86/x86.h	/^static inline void set_cr3(void *pdir) {$/;"	f
+set_gdt	src/x86/x86.h	/^static inline void set_gdt(void *gdt, int size) {$/;"	f
+set_idt	src/x86/x86.h	/^static inline void set_idt(void *idt, int size) {$/;"	f
+set_satp	src/riscv/nemu/vme.c	/^static inline void set_satp(void *pdir) {$/;"	f	file:
+set_tr	src/x86/x86.h	/^static inline void set_tr(int selector) {$/;"	f
+setup_sigaltstack	src/native/platform.c	/^static void setup_sigaltstack() {$/;"	f	file:
+setup_stack	src/native/cte.c	/^static void setup_stack(uintptr_t event, ucontext_t *uc) {$/;"	f	file:
+shift	src/x86/qemu/x86-qemu.h	/^    int shift, bits;$/;"	m	struct:mmu_config::ptinfo
+sibling	include/amdev.h	/^  gpuptr_t sibling;$/;"	m	struct:gpu_canvas
+sig_handler	src/native/cte.c	/^static void sig_handler(int sig, siginfo_t *info, void *ucontext) {$/;"	f	file:
+signature	src/x86/x86.h	/^  uint8_t  signature[4];  \/\/ "PCMP"$/;"	m	struct:__anon9
+sigstack	src/native/platform.h	/^  uint8_t sigstack[8192];$/;"	m	struct:__anon1
+specrev	src/x86/x86.h	/^  uint8_t  specrev;  \/\/ [14]$/;"	m	struct:__anon10
+spinlock_lock	src/riscv/spike/atomic.h	/^static inline void spinlock_lock(spinlock_t* lock)$/;"	f
+spinlock_lock_irqsave	src/riscv/spike/atomic.h	/^static inline long spinlock_lock_irqsave(spinlock_t* lock)$/;"	f
+spinlock_t	src/riscv/spike/atomic.h	/^typedef struct { int lock; } spinlock_t;$/;"	t	typeref:struct:__anon2
+spinlock_trylock	src/riscv/spike/atomic.h	/^static inline int spinlock_trylock(spinlock_t* lock)$/;"	f
+spinlock_unlock	src/riscv/spike/atomic.h	/^static inline void spinlock_unlock(spinlock_t* lock)$/;"	f
+spinlock_unlock_irqrestore	src/riscv/spike/atomic.h	/^static inline void spinlock_unlock_irqrestore(spinlock_t* lock, long flags)$/;"	f
+ss	include/arch/x86_64-qemu.h	/^           rsp, ss, rsp0;$/;"	m	struct:Context
+ss	src/x86/qemu/x86-qemu.h	/^  uint32_t eip, cs, eflags, esp, ss;$/;"	m	struct:trap_frame
+ss	src/x86/qemu/x86-qemu.h	/^  uint64_t rip, cs, rflags, rsp, ss;$/;"	m	struct:trap_frame
+ss0	src/x86/x86.h	/^  uint32_t ss0;      \/\/   after an increase in privilege level$/;"	m	struct:__anon7
+ss3	include/arch/x86-qemu.h	/^           eip, cs, eflags, esp, ss3;$/;"	m	struct:Context
+stack	src/x86/qemu/x86-qemu.h	/^  struct kernel_stack stack;$/;"	m	struct:cpu_local	typeref:struct:cpu_local::kernel_stack
+stack	src/x86/qemu/x86-qemu.h	/^  uint8_t stack[8192];$/;"	m	struct:kernel_stack
+stack_switch_call	src/x86/x86.h	/^static inline void stack_switch_call(void *sp, void *entry, uintptr_t arg) {$/;"	f
+stack_top	src/x86/qemu/x86-qemu.h	/^static inline void *stack_top(struct kernel_stack *stk) {$/;"	f
+start	include/am.h	/^  void *start, *end;$/;"	m	struct:__anon12
+start32	src/x86/qemu/boot/start.S	/^start32:$/;"	l
+status	include/arch/mips32-nemu.h	/^  uintptr_t hi, gpr[32], epc, cause, lo, status;$/;"	m	struct:Context
+sti	src/x86/x86.h	/^static inline void sti() {$/;"	f
+surface	src/native/ioe/gpu.c	/^static SDL_Surface *surface = NULL;$/;"	v	file:
+sys_pgsz	src/native/platform.c	/^static int sys_pgsz;$/;"	v	file:
+teardown	src/x86/qemu/vme.c	/^static void teardown(int level, uintptr_t *pt) {$/;"	f	file:
+texture	include/amdev.h	/^    struct gpu_texturedesc texture;$/;"	m	union:gpu_canvas::__anon17	typeref:struct:gpu_canvas::__anon17::gpu_texturedesc
+texture_sync	src/native/ioe/gpu.c	/^static Uint32 texture_sync(Uint32 interval, void *param) {$/;"	f	file:
+thiscpu	src/native/platform.h	27;"	d
+timer_config	src/x86/qemu/ioe.c	/^static void timer_config(AM_TIMER_CONFIG_T *cfg) {$/;"	f	file:
+timer_init	src/x86/qemu/ioe.c	/^static void timer_init() {$/;"	f	file:
+timer_rtc	src/x86/qemu/ioe.c	/^static void timer_rtc(AM_TIMER_RTC_T *rtc) {$/;"	f	file:
+timer_uptime	src/x86/qemu/ioe.c	/^static void timer_uptime(AM_TIMER_UPTIME_T *upt) {$/;"	f	file:
+to_host	src/x86/qemu/ioe.c	/^static inline void *to_host(gpuptr_t ptr) { return ptr == AM_GPU_NULL ? NULL : vmem + ptr; }$/;"	f	file:
+tohost	src/riscv/spike/htif.c	/^volatile uint64_t tohost __attribute__((section(".htif")));$/;"	v
+trap	src/x86/qemu/trap32.S	/^trap:$/;"	l
+trap	src/x86/qemu/trap64.S	/^trap:$/;"	l
+trap_frame	src/x86/qemu/x86-qemu.h	/^struct trap_frame {$/;"	s
+trm_init	src/native/trm.c	/^void trm_init() {$/;"	f
+tss	src/x86/qemu/x86-qemu.h	/^  TSS32 tss;$/;"	m	struct:cpu_local
+tss	src/x86/qemu/x86-qemu.h	/^  TSS64 tss;$/;"	m	struct:cpu_local
+type	include/amdev.h	/^  uint16_t type, w, h, x1, y1, w1, h1;$/;"	m	struct:gpu_canvas
+type	src/x86/x86.h	/^  uint32_t type       :  4; \/\/ Segment type (see STS_ constants)$/;"	m	struct:__anon4
+type	src/x86/x86.h	/^  uint32_t type      :  4; \/\/ Type(STS_{TG,IG32,TG32})$/;"	m	struct:__anon5
+type	src/x86/x86.h	/^  uint32_t type      :  4;$/;"	m	struct:__anon6
+type	src/x86/x86.h	/^  uint8_t  type;     \/\/ config type$/;"	m	struct:__anon10
+uart_config	src/x86/qemu/ioe.c	/^static void uart_config(AM_UART_CONFIG_T *cfg) {$/;"	f	file:
+uart_init	src/x86/qemu/ioe.c	/^static int uart_init() {$/;"	f	file:
+uart_rx	src/x86/qemu/ioe.c	/^static void uart_rx(AM_UART_RX_T *recv) {$/;"	f	file:
+uart_tx	src/x86/qemu/ioe.c	/^static void uart_tx(AM_UART_TX_T *send) {$/;"	f	file:
+uc	include/arch/native.h	/^  ucontext_t uc;$/;"	m	struct:Context
+uc_example	src/native/platform.c	/^static ucontext_t uc_example = {};$/;"	v	file:
+ucontext	src/mips/nemu/vme.c	/^Context *ucontext(AddrSpace *as, Area kstack, void *entry) {$/;"	f
+ucontext	src/native/vme.c	/^Context* ucontext(AddrSpace *as, Area kstack, void *entry) {$/;"	f
+ucontext	src/platform/dummy/vme.c	/^Context *ucontext(AddrSpace *as, Area kstack, void *entry) {$/;"	f
+ucontext	src/riscv/mycpu/vme.c	/^Context *ucontext(AddrSpace *as, Area kstack, void *entry) {$/;"	f
+ucontext	src/riscv/nemu/vme.c	/^Context *ucontext(AddrSpace *as, Area kstack, void *entry) {$/;"	f
+ucontext	src/x86/nemu/vme.c	/^Context* ucontext(AddrSpace *as, Area kstack, void *entry) {$/;"	f
+ucontext	src/x86/qemu/vme.c	/^Context *ucontext(AddrSpace *as, Area kstack, void *entry) {$/;"	f
+unprotect	src/mips/nemu/vme.c	/^void unprotect(AddrSpace *as) {$/;"	f
+unprotect	src/native/vme.c	/^void unprotect(AddrSpace *as) {$/;"	f
+unprotect	src/platform/dummy/vme.c	/^void unprotect(AddrSpace *as) {$/;"	f
+unprotect	src/riscv/mycpu/vme.c	/^void unprotect(AddrSpace *as) {$/;"	f
+unprotect	src/riscv/nemu/vme.c	/^void unprotect(AddrSpace *as) {$/;"	f
+unprotect	src/x86/nemu/vme.c	/^void unprotect(AddrSpace *as) {$/;"	f
+unprotect	src/x86/qemu/vme.c	/^void unprotect(AddrSpace *as) {$/;"	f
+uptsc	src/x86/qemu/ioe.c	/^static uint64_t uptsc;$/;"	v	file:
+user_entry	src/x86/qemu/mpe.c	/^static void (* volatile user_entry)();$/;"	v	file:
+user_handler	src/mips/nemu/cte.c	/^static Context* (*user_handler)(Event, Context*) = NULL;$/;"	v	file:
+user_handler	src/native/cte.c	/^static Context* (*user_handler)(Event, Context*) = NULL;$/;"	v	file:
+user_handler	src/riscv/mycpu/cte.c	/^static Context* (*user_handler)(Event, Context*) = NULL;$/;"	v	file:
+user_handler	src/riscv/nemu/cte.c	/^static Context* (*user_handler)(Event, Context*) = NULL;$/;"	v	file:
+user_handler	src/x86/nemu/cte.c	/^static Context* (*user_handler)(Event, Context*) = NULL;$/;"	v	file:
+user_handler	src/x86/qemu/cte.c	/^static Context* (*user_handler)(Event, Context*) = NULL;$/;"	v	file:
+uvm	src/x86/qemu/x86-qemu.h	/^  AddrSpace *uvm;$/;"	m	struct:cpu_local
+uvm_area	src/x86/qemu/vme.c	34;"	d	file:
+va	src/native/vme.c	/^  void *va;$/;"	m	struct:PageMap	file:
+vbe_info	src/x86/qemu/ioe.c	/^struct vbe_info {$/;"	s	file:
+vbuf	src/x86/qemu/ioe.c	/^static uint8_t vmem[VMEM_SIZE], vbuf[VMEM_SIZE], *vbuf_head;$/;"	v	file:
+vbuf_alloc	src/x86/qemu/ioe.c	/^static void *vbuf_alloc(int size) {$/;"	f	file:
+vbuf_head	src/x86/qemu/ioe.c	/^static uint8_t vmem[VMEM_SIZE], vbuf[VMEM_SIZE], *vbuf_head;$/;"	v	file:
+version	src/x86/x86.h	/^  uint8_t  version;       \/\/ [14]$/;"	m	struct:__anon9
+vm_area	src/x86/qemu/x86-qemu.h	/^struct vm_area {$/;"	s
+vm_areas	src/x86/qemu/vme.c	/^static const struct vm_area vm_areas[] = {$/;"	v	typeref:struct:vm_area	file:
+vm_head	include/arch/native.h	/^  void *vm_head;$/;"	m	struct:Context
+vm_head	src/native/platform.h	/^  void *vm_head;$/;"	m	struct:__anon1
+vme_enable	src/mips/nemu/vme.c	/^static int vme_enable = 0;$/;"	v	file:
+vme_enable	src/native/vme.c	/^static int vme_enable = 0;$/;"	v	file:
+vme_enable	src/riscv/nemu/vme.c	/^static int vme_enable = 0;$/;"	v	file:
+vme_enable	src/x86/nemu/vme.c	/^static int vme_enable = 0;$/;"	v	file:
+vme_init	src/mips/nemu/vme.c	/^bool vme_init(void* (*pgalloc_f)(int), void (*pgfree_f)(void*)) {$/;"	f
+vme_init	src/native/vme.c	/^bool vme_init(void* (*pgalloc_f)(int), void (*pgfree_f)(void*)) {$/;"	f
+vme_init	src/platform/dummy/vme.c	/^bool vme_init(void* (*pgalloc_f)(int), void (*pgfree_f)(void*)) {$/;"	f
+vme_init	src/riscv/mycpu/vme.c	/^bool vme_init(void* (*pgalloc_f)(int), void (*pgfree_f)(void*)) {$/;"	f
+vme_init	src/riscv/nemu/vme.c	/^bool vme_init(void* (*pgalloc_f)(int), void (*pgfree_f)(void*)) {$/;"	f
+vme_init	src/x86/nemu/vme.c	/^bool vme_init(void* (*pgalloc_f)(int), void (*pgfree_f)(void*)) {$/;"	f
+vme_init	src/x86/qemu/vme.c	/^bool vme_init(void *(*_pgalloc)(int size), void (*_pgfree)(void *)) {$/;"	f
+vmem	src/x86/qemu/ioe.c	/^static uint8_t vmem[VMEM_SIZE], vbuf[VMEM_SIZE], *vbuf_head;$/;"	v	file:
+w	include/amdev.h	/^  uint16_t type, w, h, x1, y1, w1, h1;$/;"	m	struct:gpu_canvas
+w	include/amdev.h	/^  uint16_t w, h;$/;"	m	struct:gpu_texturedesc
+w1	include/amdev.h	/^  uint16_t type, w, h, x1, y1, w1, h1;$/;"	m	struct:gpu_canvas
+wait_disk	src/x86/qemu/boot/main.c	/^static inline void wait_disk(void) {$/;"	f	file:
+wait_disk	src/x86/qemu/ioe.c	/^static inline void wait_disk(void) {$/;"	f	file:
+wait_sec	src/x86/qemu/ioe.c	/^static void wait_sec(AM_TIMER_RTC_T *t1) {$/;"	f	file:
+wfd	src/native/ioe/audio.c	/^static int rfd = -1, wfd = -1;$/;"	v	file:
+width	src/x86/qemu/ioe.c	/^  uint16_t width;$/;"	m	struct:vbe_info	file:
+window	src/native/ioe/gpu.c	/^static SDL_Window *window = NULL;$/;"	v	file:
+x1	include/amdev.h	/^  uint16_t type, w, h, x1, y1, w1, h1;$/;"	m	struct:gpu_canvas
+xchecksum	src/x86/x86.h	/^  uint8_t  xchecksum;     \/\/ extended table checksum$/;"	m	struct:__anon9
+xchg	src/x86/x86.h	/^static inline int xchg(int *addr, int newval) {$/;"	f
+xlength	src/x86/x86.h	/^  uint16_t xlength;       \/\/ extended table length$/;"	m	struct:__anon9
+y1	include/amdev.h	/^  uint16_t type, w, h, x1, y1, w1, h1;$/;"	m	struct:gpu_canvas
+yield	src/mips/nemu/cte.c	/^void yield() {$/;"	f
+yield	src/native/cte.c	/^void yield() {$/;"	f
+yield	src/platform/dummy/cte.c	/^void yield() {$/;"	f
+yield	src/riscv/mycpu/cte.c	/^void yield() {$/;"	f
+yield	src/riscv/nemu/cte.c	/^void yield() {$/;"	f
+yield	src/x86/nemu/cte.c	/^void yield() {$/;"	f
+yield	src/x86/qemu/cte.c	/^void yield() {$/;"	f
+zero1	src/x86/x86.h	/^  uint32_t zero1     :  5;$/;"	m	struct:__anon6
+zero2	src/x86/x86.h	/^  uint32_t zero2     :  1;$/;"	m	struct:__anon6

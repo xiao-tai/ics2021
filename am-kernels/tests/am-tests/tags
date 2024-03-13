@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+B	src/tests/video.c	/^static inline uint8_t B(uint32_t p) { return p; }$/;"	f	file:
+CASE	include/amtest.h	15;"	d
+CTE	include/amtest.h	9;"	d
+FPS	src/tests/video.c	3;"	d	file:
+G	src/tests/video.c	/^static inline uint8_t G(uint32_t p) { return p >> 8; }$/;"	f	file:
+IOE	include/amtest.h	8;"	d
+MPE	include/amtest.h	11;"	d
+N	src/tests/video.c	4;"	d	file:
+NAME	Makefile	/^NAME = amtest$/;"	m
+NAMEINIT	src/tests/keyboard.c	3;"	d	file:
+R	src/tests/video.c	/^static inline uint8_t R(uint32_t p) { return p >> 16; }$/;"	f	file:
+SRCS	Makefile	/^SRCS = $(shell find src\/ -name "*.[cS]")$/;"	m
+VME	include/amtest.h	10;"	d
+__AMUNIT_H__	include/amtest.h	2;"	d
+audio_payload	src/tests/audio/audio-data.S	/^audio_payload:$/;"	l
+audio_payload_end	src/tests/audio/audio-data.S	/^audio_payload_end:$/;"	l
+audio_test	src/tests/audio.c	/^void audio_test() {$/;"	f
+canvas	src/tests/video.c	/^static uint32_t canvas[N][N];$/;"	v	file:
+code	src/tests/vm.c	/^uint8_t code[] = {$/;"	v
+color_buf	src/tests/video.c	/^static uint32_t color_buf[32 * 32];$/;"	v	file:
+devscan	src/tests/devscan.c	/^void devscan() {$/;"	f
+drain_keys	src/tests/keyboard.c	/^static void drain_keys() {$/;"	f	file:
+entry	src/main.c	/^void (*entry)() = NULL; \/\/ mp entry$/;"	v
+first_trap	src/tests/vm.c	/^static int first_trap = 1;$/;"	v	file:
+has_kbd	src/tests/keyboard.c	/^static bool has_uart, has_kbd;$/;"	v	file:
+has_uart	src/tests/keyboard.c	/^static bool has_uart, has_kbd;$/;"	v	file:
+hello	src/tests/hello.c	/^void hello() {$/;"	f
+hello_intr	src/tests/intr.c	/^void hello_intr() {$/;"	f
+input_test	src/tests/devscan.c	/^static void input_test() {$/;"	f	file:
+keyboard_test	src/tests/keyboard.c	/^void keyboard_test() {$/;"	f
+main	src/main.c	/^int main(const char *args) {$/;"	f
+mp_print	src/tests/mp.c	/^void mp_print() {$/;"	f
+names	src/tests/keyboard.c	/^static const char *names[] = {$/;"	v	file:
+nbytes	src/tests/devscan.c	50;"	d	file:
+p	src/tests/video.c	/^static uint32_t p(int tsc) {$/;"	f	file:
+pixel	src/tests/video.c	/^static inline uint32_t pixel(uint8_t r, uint8_t g, uint8_t b) {$/;"	f	file:
+prot	src/tests/vm.c	/^static AddrSpace prot;$/;"	v	file:
+redraw	src/tests/video.c	/^void redraw() {$/;"	f
+rtc_test	src/tests/rtc.c	/^void rtc_test() {$/;"	f
+simple_pgalloc	src/tests/vm.c	/^void *simple_pgalloc(int size) {$/;"	f
+simple_pgfree	src/tests/vm.c	/^void simple_pgfree(void *ptr) {$/;"	f
+simple_trap	src/tests/intr.c	/^Context *simple_trap(Event ev, Context *ctx) {$/;"	f
+st	src/tests/vm.c	/^static uintptr_t st = 0;$/;"	v	file:
+storage_test	src/tests/devscan.c	/^static void storage_test() {$/;"	f	file:
+tests	src/main.c	/^static const char *tests[256] = {$/;"	v	file:
+timer_test	src/tests/devscan.c	/^static void timer_test() {$/;"	f	file:
+to_guest	src/tests/devscan.c	/^static inline gpuptr_t to_guest(void *ptr) { return ptr ? (uint8_t *)ptr - vmem : AM_GPU_NULL; }$/;"	f	file:
+uctx	src/tests/vm.c	/^static Context *uctx;$/;"	v	file:
+update	src/tests/video.c	/^void update() {$/;"	f
+used	src/tests/video.c	/^static int used[N][N];$/;"	v	file:
+video_test	src/tests/devscan.c	/^static void video_test() {$/;"	f	file:
+video_test	src/tests/video.c	/^void video_test() {$/;"	f
+vm_handler	src/tests/vm.c	/^Context* vm_handler(Event ev, Context *ctx) {$/;"	f
+vm_test	src/tests/vm.c	/^void vm_test() {$/;"	f
+vmem	src/tests/devscan.c	/^static uint8_t vmem[512 << 10];$/;"	v	file:

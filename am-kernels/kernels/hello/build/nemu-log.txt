@@ -1,0 +1,56 @@
+[1;34m[src/utils/log.c:13 init_log] Log is written to /home/ziqiang/ics2021/am-kernels/kernels/hello/build/nemu-log.txt[0m
+[1;34m[src/memory/paddr.c:60 init_mem] physical memory area [0x80000000, 0x88000000][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'serial' at [0xa00003f8, 0xa00003ff][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'rtc' at [0xa0000048, 0xa000004f][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'vgactl' at [0xa0000100, 0xa0000107][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'vmem' at [0xa1000000, 0xa10752ff][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'keyboard' at [0xa0000060, 0xa0000063][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'audio' at [0xa0000200, 0xa0000217][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'audio-sbuf' at [0xa1200000, 0xa120ffff][0m
+[1;34m[src/monitor/monitor.c:46 load_img] The image is /home/ziqiang/ics2021/am-kernels/kernels/hello/build/hello-riscv32-nemu.bin, size = 229[0m
+[1;34m[src/monitor/monitor.c:13 welcome] Trace: [1;32mON[0m[0m
+[1;34m[src/monitor/monitor.c:14 welcome] If trace is enabled, a log file will be generated to record the trace. This may lead to a large log file. If it is not necessary, you can disable it in menuconfig[0m
+[1;34m[src/monitor/monitor.c:17 welcome] Build time: 20:05:56, Oct 31 2023[0m
+dtrace: write serial at0xa00003f8, 1 with 0x00000048
+dtrace: write serial at0xa00003f8, 1 with 0x00000065
+dtrace: write serial at0xa00003f8, 1 with 0x0000006c
+dtrace: write serial at0xa00003f8, 1 with 0x0000006c
+dtrace: write serial at0xa00003f8, 1 with 0x0000006f
+dtrace: write serial at0xa00003f8, 1 with 0x0000002c
+dtrace: write serial at0xa00003f8, 1 with 0x00000020
+dtrace: write serial at0xa00003f8, 1 with 0x00000041
+dtrace: write serial at0xa00003f8, 1 with 0x00000062
+dtrace: write serial at0xa00003f8, 1 with 0x00000073
+dtrace: write serial at0xa00003f8, 1 with 0x00000074
+dtrace: write serial at0xa00003f8, 1 with 0x00000072
+dtrace: write serial at0xa00003f8, 1 with 0x00000061
+dtrace: write serial at0xa00003f8, 1 with 0x00000063
+dtrace: write serial at0xa00003f8, 1 with 0x00000074
+dtrace: write serial at0xa00003f8, 1 with 0x0000004d
+dtrace: write serial at0xa00003f8, 1 with 0x00000061
+dtrace: write serial at0xa00003f8, 1 with 0x00000063
+dtrace: write serial at0xa00003f8, 1 with 0x00000068
+dtrace: write serial at0xa00003f8, 1 with 0x00000069
+dtrace: write serial at0xa00003f8, 1 with 0x0000006e
+dtrace: write serial at0xa00003f8, 1 with 0x00000065
+dtrace: write serial at0xa00003f8, 1 with 0x00000021
+dtrace: write serial at0xa00003f8, 1 with 0x0000000a
+dtrace: write serial at0xa00003f8, 1 with 0x0000006d
+dtrace: write serial at0xa00003f8, 1 with 0x00000061
+dtrace: write serial at0xa00003f8, 1 with 0x00000069
+dtrace: write serial at0xa00003f8, 1 with 0x0000006e
+dtrace: write serial at0xa00003f8, 1 with 0x00000061
+dtrace: write serial at0xa00003f8, 1 with 0x00000072
+dtrace: write serial at0xa00003f8, 1 with 0x00000067
+dtrace: write serial at0xa00003f8, 1 with 0x00000073
+dtrace: write serial at0xa00003f8, 1 with 0x00000020
+dtrace: write serial at0xa00003f8, 1 with 0x0000003d
+dtrace: write serial at0xa00003f8, 1 with 0x00000020
+dtrace: write serial at0xa00003f8, 1 with 0x00000027
+dtrace: write serial at0xa00003f8, 1 with 0x00000027
+dtrace: write serial at0xa00003f8, 1 with 0x0000002e
+dtrace: write serial at0xa00003f8, 1 with 0x0000000a
+[1;34m[src/cpu/cpu-exec.c:156 cpu_exec] nemu: [1;32mHIT GOOD TRAP[0m at pc = 0x800000b0[0m
+[1;34m[src/cpu/cpu-exec.c:83 statistic] host time spent = 910 us[0m
+[1;34m[src/cpu/cpu-exec.c:84 statistic] total guest instructions = 348[0m
+[1;34m[src/cpu/cpu-exec.c:85 statistic] simulation frequency = 382,417 instr/s[0m

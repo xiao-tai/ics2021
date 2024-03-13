@@ -1,0 +1,17 @@
+[1;34m[src/utils/log.c:13 init_log] Log is written to /home/ziqiang/ics2021/am-kernels/tests/cpu-tests/build/nemu-log.txt[0m
+[1;34m[src/memory/paddr.c:60 init_mem] physical memory area [0x80000000, 0x88000000][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'serial' at [0xa00003f8, 0xa00003ff][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'rtc' at [0xa0000048, 0xa000004f][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'vgactl' at [0xa0000100, 0xa0000107][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'vmem' at [0xa1000000, 0xa10752ff][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'keyboard' at [0xa0000060, 0xa0000063][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'audio' at [0xa0000200, 0xa0000217][0m
+[1;34m[src/device/io/mmio.c:18 add_mmio_map] Add mmio map 'audio-sbuf' at [0xa1200000, 0xa120ffff][0m
+[1;34m[src/monitor/monitor.c:46 load_img] The image is /home/ziqiang/ics2021/am-kernels/tests/cpu-tests/build/add-riscv32-nemu.bin, size = 588[0m
+[1;34m[src/monitor/monitor.c:13 welcome] Trace: [1;32mON[0m[0m
+[1;34m[src/monitor/monitor.c:14 welcome] If trace is enabled, a log file will be generated to record the trace. This may lead to a large log file. If it is not necessary, you can disable it in menuconfig[0m
+[1;34m[src/monitor/monitor.c:17 welcome] Build time: 20:05:56, Oct 31 2023[0m
+[1;34m[src/cpu/cpu-exec.c:156 cpu_exec] nemu: [1;32mHIT GOOD TRAP[0m at pc = 0x80000120[0m
+[1;34m[src/cpu/cpu-exec.c:83 statistic] host time spent = 25 us[0m
+[1;34m[src/cpu/cpu-exec.c:84 statistic] total guest instructions = 840[0m
+[1;34m[src/cpu/cpu-exec.c:85 statistic] simulation frequency = 33,600,000 instr/s[0m
